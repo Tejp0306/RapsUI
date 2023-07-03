@@ -1,0 +1,2343 @@
+/* screen - rapscorp-landing-2 */
+
+.rapscorp-landing-2 {
+  background-color: var(--white);
+  border: 1px none;
+  /* height: 3291px; */
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.rapscorp-landing-2 .group-107-g11TVc {
+  background-color: transparent;
+  height: 42px;
+  left: 1171px;
+  position: absolute;
+  top: 30px;
+  width: 151px;
+}
+
+.rapscorp-landing-2 .rectangle-48-p9fD4D {
+  background-color: var(--absolute-zero);
+  border-radius: 69.78px;
+  height: 42px;
+  width: 149px;
+}
+
+.rapscorp-landing-2 .contact-us-p9fD4D {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 12.6px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .image-27-g11TVc {
+  background-color: transparent;
+  height: 63px;
+  left: 110px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  width: 174px;
+}
+
+.rapscorp-landing-2 .component-107-g11TVc {
+  background-color: transparent;
+  height: 42px;
+  left: 1092px;
+  position: absolute;
+  top: 30px;
+  width: 59px;
+}
+
+.rapscorp-landing-2 .group-556-ivbG7z {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 59px;
+}
+
+.rapscorp-landing-2 .rectangle-48-EW0QTW {
+  background-color: var(--white);
+  border-radius: 69.78px;
+  height: 42px;
+  width: 59px;
+}
+
+.rapscorp-landing-2 .rectangle-304-EW0QTW {
+  background-color: transparent;
+  height: 39px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 56px;
+}
+
+.rapscorp-landing-2 .rectangle-305-EW0QTW {
+  background-color: transparent;
+  height: 39px;
+  left: 1px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 56px;
+}
+
+.rapscorp-landing-2 .group-470-g11TVc {
+  background-color: transparent;
+  height: 17px;
+  left: 495px;
+  position: absolute;
+  top: 44px;
+  width: 79px;
+}
+
+.rapscorp-landing-2 .raps-team-X45khH {
+  left: 0px;
+  opacity: 0.4;
+  text-align: center;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .services-g11TVc {
+  left: 598px;
+  opacity: 0.4;
+  text-align: center;
+  top: 43px;
+}
+
+.rapscorp-landing-2 .social-responsibility-g11TVc {
+  left: 682px;
+  opacity: 0.4;
+  text-align: center;
+  top: 43px;
+}
+
+.rapscorp-landing-2 .events-g11TVc {
+  left: 851px;
+  opacity: 0.4;
+  text-align: center;
+  top: 43px;
+}
+
+.rapscorp-landing-2 .careers-g11TVc {
+  left: 925px;
+  opacity: 0.4;
+  top: 43px;
+}
+
+.rapscorp-landing-2 .blog-g11TVc {
+  left: 1004px;
+  opacity: 0.4;
+  top: 43px;
+}
+
+.rapscorp-landing-2 .group-723-g11TVc {
+  background-color: transparent;
+  height: 17px;
+  left: 404px;
+  position: absolute;
+  top: 44px;
+  width: 67px;
+}
+
+.rapscorp-landing-2 .about-us-x18K5C {
+  left: 0px;
+  opacity: 0.4;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .group-369-g11TVc {
+  background-color: transparent;
+  height: 17px;
+  left: 334px;
+  position: absolute;
+  top: 44px;
+  width: 44px;
+}
+
+.rapscorp-landing-2 .group-368-mjt13W {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 46px;
+}
+
+.rapscorp-landing-2 .home-FBFo3Q {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+  left: 0px;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .ellipse-27-g11TVc {
+  background-color: var(--absolute-zero);
+  border-radius: 2.79px;
+  height: 6px;
+  left: 353px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 72px;
+  width: 6px;
+}
+
+.rapscorp-landing-2 .component-139-g11TVc {
+  background-color: var(--white);
+  border-radius: 20px;
+  display: block;
+  height: 675px;
+  left: 20px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 98px;
+  transform: translate(0, 25px);
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .component-139-g11TVc.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.rapscorp-landing-2 .group-707-vbpOSB {
+  background-color: transparent;
+  height: 675px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 2880px;
+}
+
+.rapscorp-landing-2 .frame-9-kkMRoX {
+  background-color: var(--white);
+  height: 675px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.rapscorp-landing-2 .image-36-rlYUJx {
+  height: 675px;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .component-132-rlYUJx {
+  height: 675px;
+  width: 663px;
+}
+
+.rapscorp-landing-2 .rectangle-81-fBGoYx {
+  height: 675px;
+  left: 0px;
+  top: 0px;
+  width: 663px;
+}
+
+.rapscorp-landing-2 .mask-group-fBGoYx {
+  height: 675px;
+  left: 0px;
+  top: 0px;
+  width: 663px;
+}
+
+.rapscorp-landing-2 .component-138-rlYUJx {
+  background-color: transparent;
+  height: 340px;
+  left: 282px;
+  opacity: 0.3;
+  position: absolute;
+  top: 280px;
+  width: 339px;
+}
+
+.rapscorp-landing-2 .ellipse-86-rUVO2W {
+  background-color: transparent;
+  border: 1.5px solid;
+  border-color: var(--white);
+  border-radius: 48.29px/170px;
+  height: 340px;
+  left: 121px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 97px;
+}
+
+.rapscorp-landing-2 .ellipse-87-rUVO2W {
+  background-color: transparent;
+  border: 1.5px solid;
+  border-color: var(--white);
+  border-radius: 48.43px/169.5px;
+  height: 339px;
+  left: 121px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  transform: rotate(90.00deg);
+  width: 97px;
+}
+
+.rapscorp-landing-2 .ellipse-88-rUVO2W {
+  background-color: transparent;
+  border: 1.5px solid;
+  border-color: var(--white);
+  border-radius: 48.36px/169.75px;
+  height: 340px;
+  left: 121px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  transform: rotate(45.08deg);
+  width: 97px;
+}
+
+.rapscorp-landing-2 .ellipse-89-rUVO2W {
+  background-color: transparent;
+  border: 1.5px solid;
+  border-color: var(--white);
+  border-radius: 48.36px/169.75px;
+  height: 340px;
+  left: 121px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  transform: rotate(134.92deg);
+  width: 97px;
+}
+
+.rapscorp-landing-2 .focused-on-creating-rlYUJx {
+  background-color: transparent;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 168px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-MlA7uu {
+}
+
+.rapscorp-landing-2 .span1-MlA7uu {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rapscorp-landing-2 .span2-MlA7uu {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rapscorp-landing-2 .span3-MlA7uu {
+}
+
+.rapscorp-landing-2 .icon-play-rlYUJx {
+  background-color: transparent;
+  height: 45px;
+  left: 1036px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 314px;
+  width: 39px;
+}
+
+.rapscorp-landing-2 .frame-10-kkMRoX {
+  background-color: var(--white);
+  height: 675px;
+  left: 1440px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.rapscorp-landing-2 .image-36-jEQrIZ {
+  height: 872px;
+  left: -740px;
+  top: 1564px;
+  width: 1661px;
+}
+
+.rapscorp-landing-2 .rectangle-419-jEQrIZ {
+  -webkit-backdrop-filter: blur(40.5px) brightness(100%);
+  backdrop-filter: blur(40.5px) brightness(100%);
+  background-color: #ffffff1a;
+  height: 675px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 663px;
+}
+
+.rapscorp-landing-2 .mask-group-jEQrIZ {
+  height: 675px;
+  left: -740px;
+  top: 1564px;
+  width: 663px;
+}
+
+.rapscorp-landing-2 .providing-profession-jEQrIZ {
+  background-color: transparent;
+  height: auto;
+  left: 75px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 167px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-ysupue {
+}
+
+.rapscorp-landing-2 .span1-ysupue {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rapscorp-landing-2 .span2-ysupue {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rapscorp-landing-2 .span3-ysupue {
+}
+
+.rapscorp-landing-2 .span4-ysupue {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rapscorp-landing-2 .span5-ysupue {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rapscorp-landing-2 .span6-ysupue {
+}
+
+.rapscorp-landing-2 .group-633-jEQrIZ {
+  background-color: transparent;
+  height: 45px;
+  left: 75px;
+  position: absolute;
+  top: 462px;
+  width: 169px;
+}
+
+.rapscorp-landing-2 .group-113-GEthuh {
+  background-color: transparent;
+  height: 45px;
+  left: 122px;
+  position: absolute;
+  top: -0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-S9pMBo {
+  background-color: var(--white);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-S9pMBo {
+  height: 17px;
+  left: -715px;
+  mix-blend-mode: normal;
+  top: 1577px;
+  width: 11px;
+}
+
+.rapscorp-landing-2 .read-more-GEthuh {
+  font-size: 16.5px;
+  left: 0px;
+  top: 12px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .vector-49-jEQrIZ {
+  background-color: transparent;
+  height: 39px;
+  left: 296px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1923px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .group-113-vbpOSB {
+  background-color: transparent;
+  height: 60px;
+  left: 185px;
+  position: absolute;
+  top: 403px;
+  width: 60px;
+}
+
+.rapscorp-landing-2 .ellipse-22-gxIQO1 {
+  background-color: var(--absolute-zero);
+  border-radius: 30px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  width: 60px;
+}
+
+.rapscorp-landing-2 .vector-15-gxIQO1 {
+  height: 18px;
+  left: 21px;
+  mix-blend-mode: normal;
+  top: 21px;
+  width: 18px;
+}
+
+.rapscorp-landing-2 .read-more-vbpOSB {
+  font-size: 22px;
+  left: 42px;
+  top: 418px;
+  width: 123px;
+}
+
+.rapscorp-landing-2 .rectangle-81-g11TVc {
+  height: 515px;
+  left: 20px;
+  top: 793px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .group-731-g11TVc {
+  background-color: transparent;
+  height: 515px;
+  left: 20px;
+  position: absolute;
+  top: 793px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .component-132-OYpMR3 {
+  height: 515px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .rectangle-81-LO5ZoV {
+  height: 515px;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .mask-group-LO5ZoV {
+  height: 515px;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .component-133-OYpMR3 {
+  background-color: transparent;
+  height: 322px;
+  left: 1033px;
+  opacity: 0.2;
+  position: absolute;
+  top: 45px;
+  width: 322px;
+}
+
+.rapscorp-landing-2 .rectangle-409-e5ohfN {
+  background-color: var(--white);
+  border-radius: 96.81px;
+  height: 322px;
+  left: 154px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  transform: rotate(45deg);
+  width: 15px;
+}
+
+.rapscorp-landing-2 .rectangle-412-e5ohfN {
+  background-color: var(--white);
+  border-radius: 96.81px;
+  height: 322px;
+  left: 154px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 15px;
+}
+
+.rapscorp-landing-2 .rectangle-413-e5ohfN {
+  background-color: var(--white);
+  border-radius: 96.81px;
+  height: 322px;
+  left: 154px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  transform: rotate(90.00deg);
+  width: 15px;
+}
+
+.rapscorp-landing-2 .rectangle-410-e5ohfN {
+  background-color: var(--white);
+  border-radius: 96.81px;
+  height: 322px;
+  left: 154px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  transform: rotate(135.00deg);
+  width: 15px;
+}
+
+.rapscorp-landing-2 .rectangle-411-e5ohfN {
+  background-color: var(--white);
+  border-radius: 96.81px;
+  height: 322px;
+  left: 154px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  transform: rotate(135.00deg);
+  width: 15px;
+}
+
+.rapscorp-landing-2 .group-699-g11TVc {
+  background-color: transparent;
+  height: 78px;
+  left: 96px;
+  position: absolute;
+  top: 895px;
+  width: 303px;
+}
+
+.rapscorp-landing-2 .about-us-kkHKpe {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+  left: 0px;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .we-are-among-the-bes-g11TVc {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 96px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1013px;
+  width: 1248px;
+}
+
+.rapscorp-landing-2 .rectangle-415-g11TVc {
+  background-color: transparent;
+  height: 328px;
+  left: 740px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2990px;
+  width: 375px;
+}
+
+.rapscorp-landing-2 .group-110-g11TVc {
+  background-color: transparent;
+  height: 74px;
+  left: 249px;
+  position: absolute;
+  top: 1343px;
+  transform: rotate(90.00deg);
+  width: 74px;
+}
+
+.rapscorp-landing-2 .ellipse-22-3lpNIs {
+  background-color: transparent;
+  border: 1.4893616437911987px solid;
+  border-color: var(--absolute-zero);
+  border-radius: 37.23px;
+  height: 74px;
+  left: -0px;
+  top: -0px;
+  width: 74px;
+}
+
+.rapscorp-landing-2 .vector-15-3lpNIs {
+  height: 22px;
+  left: 27px;
+  mix-blend-mode: normal;
+  top: 27px;
+  transform: rotate(-90.00deg);
+  width: 22px;
+}
+
+.rapscorp-landing-2 .services-we-offer-g11TVc {
+  background-color: transparent;
+  height: auto;
+  left: 20px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1420px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-g7Ke9C {
+}
+
+.rapscorp-landing-2 .span1-g7Ke9C {
+}
+
+.rapscorp-landing-2 .group-711-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 1116px;
+  position: absolute;
+  top: 1561px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .group-113-vCt95V {
+  background-color: transparent;
+  height: 45px;
+  left: 0px;
+  position: relative;
+  top: -0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-n0IWCT {
+  background-color: var(--white);
+  border-radius: 22.34px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-n0IWCT {
+  height: 13px;
+  left: 16px;
+  mix-blend-mode: normal;
+  top: 16px;
+  width: 13px;
+}
+
+.rapscorp-landing-2 .group-726-g11TVc {
+  background-color: transparent;
+  cursor: pointer;
+  height: 328px;
+  left: 395px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1328px;
+  transition: all 0.2s ease;
+  width: 503px;
+}
+
+.rapscorp-landing-2 .group-726-g11TVc:hover {
+  transform: translate(-5px, 0);
+}
+
+.rapscorp-landing-2 .rectangle-354-CeW3kT {
+  width: 497px;
+}
+
+.rapscorp-landing-2 .it-services-CeW3kT {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  left: 45px;
+  top: 37px;
+}
+
+.rapscorp-landing-2 .lorem-ipsum-dolor-si-CeW3kT {
+  left: 45px;
+  opacity: 0.6;
+  top: 131px;
+  width: 419px;
+}
+
+.rapscorp-landing-2 .group-113-CeW3kT {
+  background-color: transparent;
+  height: 45px;
+  left: 182px;
+  position: absolute;
+  top: 246px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-sX5xXI {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 22.34px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-sX5xXI {
+  height: 14px;
+  left: 16px;
+  mix-blend-mode: normal;
+  top: 15px;
+  width: 14px;
+}
+
+.rapscorp-landing-2 .group-727-g11TVc {
+  background-color: transparent;
+  height: 328px;
+  left: 922px;
+  position: absolute;
+  top: 1328px;
+  width: 504px;
+}
+
+.rapscorp-landing-2 .rectangle-354-fwWYCI {
+  width: 498px;
+}
+
+.rapscorp-landing-2 .staffing-services-fwWYCI {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  left: 45px;
+  top: 37px;
+}
+
+.rapscorp-landing-2 .lorem-ipsum-dolor-si-fwWYCI {
+  left: 45px;
+  opacity: 0.6;
+  top: 131px;
+  width: 409px;
+}
+
+.rapscorp-landing-2 .group-113-fwWYCI {
+  background-color: transparent;
+  height: 45px;
+  left: 182px;
+  position: absolute;
+  top: 246px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-pkiDL9 {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 22.34px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-pkiDL9 {
+  height: 14px;
+  left: 16px;
+  mix-blend-mode: normal;
+  top: 15px;
+  width: 14px;
+}
+
+.rapscorp-landing-2 .component-134-g11TVc {
+  background-color: transparent;
+  height: 672px;
+  left: 20px;
+  position: absolute;
+  top: 1676px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .rectangle-81-xVB3Bl {
+  height: 672px;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .mask-group-xVB3Bl {
+  height: 672px;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .group-718-xVB3Bl {
+  background-color: transparent;
+  height: 137px;
+  left: 446px;
+  position: absolute;
+  top: 61px;
+  width: 150px;
+}
+
+.rapscorp-landing-2 .union-dHWxFz {
+  height: 139px;
+  width: 156px;
+}
+
+.rapscorp-landing-2 .group-719-xVB3Bl {
+  background-color: transparent;
+  height: 69px;
+  left: 565px;
+  position: absolute;
+  top: 61px;
+  transform: rotate(180deg);
+  width: 75px;
+}
+
+.rapscorp-landing-2 .union-MQ9x0o {
+  height: 71px;
+  transform: rotate(-180deg);
+  width: 80px;
+}
+
+.rapscorp-landing-2 .image-g11TVc {
+  background-color: transparent;
+  height: 139px;
+  left: 580px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2128px;
+  width: 220px;
+}
+
+.rapscorp-landing-2 .shadow-testimonials-g11TVc {
+  background-color: transparent;
+  height: 523px;
+  left: 514px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1820px;
+  width: 926px;
+}
+
+.rapscorp-landing-2 .what-our-clients-employees-say-about-us-g11TVc {
+  background-color: transparent;
+  height: auto;
+  left: 80px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1851px;
+  width: 522px;
+}
+
+.rapscorp-landing-2 .span0-TugrWT {
+}
+
+.rapscorp-landing-2 .span1-TugrWT {
+}
+
+.rapscorp-landing-2 .span2-TugrWT {
+}
+
+.rapscorp-landing-2 .span3-TugrWT {
+}
+
+.rapscorp-landing-2 .span4-TugrWT {
+}
+
+.rapscorp-landing-2 .group-48-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 1257px;
+  position: absolute;
+  top: 2272px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .rectangle-53-vvDqxh {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+.rapscorp-landing-2 .group-49-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 1316px;
+  position: absolute;
+  top: 2272px;
+  transform: rotate(180deg);
+  width: 45px;
+}
+
+.rapscorp-landing-2 .rectangle-53-fkh9xg {
+  background-color: var(--white);
+  border: 1.4893617630004883px solid;
+}
+
+.rapscorp-landing-2 .vector-5-fkh9xg {
+  transform: rotate(-180deg);
+}
+
+.rapscorp-landing-2 .group-125-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 1167px;
+  position: absolute;
+  top: 1721px;
+  width: 196px;
+}
+
+.rapscorp-landing-2 .rectangle-48-EmuUXg {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #a5c4ec;
+  border-radius: 74.47px;
+  height: 45px;
+  width: 194px;
+}
+
+.rapscorp-landing-2 .what-employees-say-EmuUXg {
+  background-color: transparent;
+  color: #a5c5ed;
+  font-family: var(--font-family-montserrat);
+  font-size: 13.4px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 28px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .group-367-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 966px;
+  position: absolute;
+  top: 1721px;
+  width: 196px;
+}
+
+.rapscorp-landing-2 .rectangle-48-ZGaOpz {
+  background-color: var(--white);
+  border-radius: 74.47px;
+  height: 45px;
+  width: 194px;
+}
+
+.rapscorp-landing-2 .what-clients-say-ZGaOpz {
+  background-color: transparent;
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: 13.4px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .component-48-g11TVc {
+  background-color: transparent;
+  height: 334px;
+  left: 612px;
+  position: absolute;
+  top: 1864px;
+  width: 748px;
+}
+
+.rapscorp-landing-2 .rectangle-81-XcBTaW {
+  height: 334px;
+  left: 0px;
+  top: -0px;
+  width: 748px;
+}
+
+.rapscorp-landing-2 .group-457-XcBTaW {
+  background-color: transparent;
+  height: 243px;
+  left: 45px;
+  position: absolute;
+  top: 45px;
+  width: 663px;
+}
+
+.rapscorp-landing-2 .hr-head-pelvic-rehabilitation-medicine-6bXFae {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 119px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 29px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-ND5NOJ {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rapscorp-landing-2 .span1-ND5NOJ {
+  font-style: normal;
+}
+
+.rapscorp-landing-2 .pelvic-rehabilitatio-6bXFae {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 123px;
+  width: 659px;
+}
+
+.rapscorp-landing-2 .ellipse-23-6bXFae {
+  background-color: var(--absolute-zero);
+  border-radius: 52.13px;
+  height: 104px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  transform: rotate(90.00deg);
+  width: 104px;
+}
+
+.rapscorp-landing-2 .group-122-6bXFae {
+  background-color: transparent;
+  height: 52px;
+  left: 26px;
+  position: absolute;
+  top: 26px;
+  width: 53px;
+}
+
+.rapscorp-landing-2 .ellipse-24-Gou2Tm {
+  background-color: var(--white);
+  border-radius: 12.66px;
+  height: 25px;
+  left: 13px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  transform: rotate(90.00deg);
+  width: 25px;
+}
+
+.rapscorp-landing-2 .ellipse-25-Gou2Tm {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 25px;
+  width: 53px;
+}
+
+.rapscorp-landing-2 .rectangle-80-g11TVc {
+  background-color: transparent;
+  height: 486px;
+  left: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2368px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .your-questions-answered-g11TVc {
+  background-color: transparent;
+  height: auto;
+  left: 80px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2411px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-mXhwCH {
+}
+
+.rapscorp-landing-2 .span1-mXhwCH {
+}
+
+.rapscorp-landing-2 .span2-mXhwCH {
+}
+
+.rapscorp-landing-2 .group-692-g11TVc {
+  background-color: transparent;
+  height: 74px;
+  left: 509px;
+  position: absolute;
+  top: 2428px;
+  width: 852px;
+}
+
+.rapscorp-landing-2 .group-691-p9FOJU {
+  background-color: transparent;
+  height: 74px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 771px;
+}
+
+.rapscorp-landing-2 .group-697-ZKZ8JN {
+  background-color: transparent;
+  height: 74px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 775px;
+}
+
+.rapscorp-landing-2 .how-do-our-clients-choose-us-2g26YG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .lorem-ipsum-dolor-si-2g26YG {
+  left: 0px;
+  top: 40px;
+  width: 771px;
+}
+
+.rapscorp-landing-2 .group-130-p9FOJU {
+  background-color: transparent;
+  height: 45px;
+  left: 807px;
+  position: absolute;
+  top: 16px;
+  transform: rotate(90.00deg);
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-Smvxis {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 22.34px;
+  height: 45px;
+  left: -0px;
+  top: -0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-Smvxis {
+  height: 2px;
+  left: 14px;
+  top: 22px;
+  transform: rotate(-90.00deg);
+  width: 17px;
+}
+
+.rapscorp-landing-2 .group-693-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 509px;
+  position: absolute;
+  top: 2547px;
+  width: 854px;
+}
+
+.rapscorp-landing-2 .how-do-we-deliver-1jB1w4 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .group-127-1jB1w4 {
+  background-color: transparent;
+  height: 45px;
+  left: 807px;
+  position: absolute;
+  top: 0px;
+  transform: rotate(90.00deg);
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-kjKUHW {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--absolute-zero);
+  border-radius: 22.34px;
+  height: 45px;
+  left: -0px;
+  top: -0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-kjKUHW {
+  height: 2px;
+  left: 14px;
+  mix-blend-mode: normal;
+  top: 21px;
+  transform: rotate(-90.00deg);
+  width: 17px;
+}
+
+.rapscorp-landing-2 .group-694-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 509px;
+  position: absolute;
+  top: 2637px;
+  width: 854px;
+}
+
+.rapscorp-landing-2 .how-do-we-check-our-products-XdiSh7 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .group-128-XdiSh7 {
+  background-color: transparent;
+  height: 45px;
+  left: 807px;
+  position: absolute;
+  top: 0px;
+  transform: rotate(90.00deg);
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-GcgxVF {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--absolute-zero);
+  border-radius: 22.34px;
+  height: 45px;
+  left: -0px;
+  top: -0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-GcgxVF {
+  height: 2px;
+  left: 14px;
+  mix-blend-mode: normal;
+  top: 21px;
+  transform: rotate(-90.00deg);
+  width: 17px;
+}
+
+.rapscorp-landing-2 .group-695-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 509px;
+  position: absolute;
+  top: 2727px;
+  width: 854px;
+}
+
+.rapscorp-landing-2 .what-is-our-recruitment-process-XKdxPA {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .group-129-XKdxPA {
+  background-color: transparent;
+  height: 45px;
+  left: 807px;
+  position: absolute;
+  top: -0px;
+  transform: rotate(90.00deg);
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-3XGYkC {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--absolute-zero);
+  border-radius: 22.34px;
+  height: 45px;
+  left: -0px;
+  top: -0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-3XGYkC {
+  height: 2px;
+  left: 14px;
+  mix-blend-mode: normal;
+  top: 21px;
+  transform: rotate(-90.00deg);
+  width: 17px;
+}
+
+.rapscorp-landing-2 .cant-find-the-answer-g11TVc {
+  background-color: transparent;
+  color: #888888;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 80px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2702px;
+  width: 349px;
+}
+
+.rapscorp-landing-2 .group-696-g11TVc {
+  background-color: transparent;
+  height: 22px;
+  left: 80px;
+  position: absolute;
+  top: 2776px;
+  width: 136px;
+}
+
+.rapscorp-landing-2 .get-in-touch-l1eKwO {
+  background-color: transparent;
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 0px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .group-730-g11TVc {
+  background-color: transparent;
+  height: 45px;
+  left: 234px;
+  position: absolute;
+  top: 2765px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-tZjQUt {
+  background-color: transparent;
+  border: 1.4893616437911987px solid;
+  border-color: var(--absolute-zero);
+  border-radius: 22.34px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-tZjQUt {
+  height: 13px;
+  left: 16px;
+  mix-blend-mode: normal;
+  top: 16px;
+  width: 13px;
+}
+
+.rapscorp-landing-2 .rectangle-422-g11TVc {
+  background-color: transparent;
+  height: 398px;
+  left: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2873px;
+  width: 1400px;
+}
+
+.rapscorp-landing-2 .get-the-latest-information-from-us-g11TVc {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 80px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2932px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-JkoCo9 {
+  color: var(--white);
+  font-style: normal;
+}
+
+.rapscorp-landing-2 .span1-JkoCo9 {
+  color: var(--picton-blue);
+  font-style: normal;
+}
+
+.rapscorp-landing-2 .span2-JkoCo9 {
+  color: var(--white);
+  font-style: normal;
+}
+
+.rapscorp-landing-2 .component-145-g11TVc {
+  background-color: transparent;
+  height: 30px;
+  left: 83px;
+  position: absolute;
+  top: 3211px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .group-107-nZyC32 {
+  background-color: transparent;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+
+.rapscorp-landing-2 .rectangle-48-u2F1xW {
+  background-color: transparent;
+  border: 0.7446808815002441px solid;
+  border-color: var(--white);
+  border-radius: 744.68px;
+  height: 30px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .facebook-u2F1xW {
+  left: 24px;
+}
+
+.rapscorp-landing-2 .component-146-g11TVc {
+  background-color: transparent;
+  height: 30px;
+  left: 205px;
+  position: absolute;
+  top: 3211px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .group-107-97T9MA {
+  background-color: transparent;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+
+.rapscorp-landing-2 .rectangle-48-LuLxJd {
+  background-color: transparent;
+  border: 0.7446808815002441px solid;
+  border-color: var(--white);
+  border-radius: 744.68px;
+  height: 30px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .facebook-LuLxJd {
+  left: 26px;
+}
+
+.rapscorp-landing-2 .component-147-g11TVc {
+  background-color: transparent;
+  height: 30px;
+  left: 328px;
+  position: absolute;
+  top: 3211px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .group-107-79vWsW {
+  background-color: transparent;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+
+.rapscorp-landing-2 .rectangle-48-YqC0u9 {
+  background-color: transparent;
+  border: 0.7446808815002441px solid;
+  border-color: var(--white);
+  border-radius: 744.68px;
+  height: 30px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .facebook-YqC0u9 {
+  left: 22px;
+}
+
+.rapscorp-landing-2 .component-148-g11TVc {
+  background-color: transparent;
+  height: 30px;
+  left: 451px;
+  position: absolute;
+  top: 3211px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .group-107-arOYhP {
+  background-color: transparent;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100px;
+}
+
+.rapscorp-landing-2 .rectangle-48-EVYvky {
+  background-color: transparent;
+  border: 0.7446808815002441px solid;
+  border-color: var(--white);
+  border-radius: 744.68px;
+  height: 30px;
+  width: 98px;
+}
+
+.rapscorp-landing-2 .facebook-EVYvky {
+  left: 31px;
+}
+
+.rapscorp-landing-2 .rectangle-74-g11TVc {
+  background-color: transparent;
+  height: 89px;
+  left: 80px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3071px;
+  width: 469px;
+}
+
+.rapscorp-landing-2 .group-113-g11TVc {
+  background-color: transparent;
+  cursor: pointer;
+  height: 45px;
+  left: 467px;
+  position: absolute;
+  top: 3093px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .ellipse-22-UGfrAn {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--white);
+  border-radius: 22.34px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .vector-15-UGfrAn {
+  height: 14px;
+  left: 16px;
+  mix-blend-mode: normal;
+  top: 15px;
+  width: 14px;
+}
+
+.rapscorp-landing-2 .email-address-g11TVc {
+  background-color: transparent;
+  border: 0;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  height: 24px;
+  left: 120px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 3103px;
+  white-space: nowrap;
+  width: 335px;
+}
+
+.rapscorp-landing-2 .email-address-g11TVc::placeholder {
+  color: #ffffff99;
+}
+
+.rapscorp-landing-2 .group-728-g11TVc {
+  background-color: transparent;
+  height: 84px;
+  left: 882px;
+  position: absolute;
+  top: 2933px;
+  width: 122px;
+}
+
+.rapscorp-landing-2 .our-services-kw75n8 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .it-services-kw75n8 {
+  left: 0px;
+  top: 36px;
+}
+
+.rapscorp-landing-2 .staffing-services-kw75n8 {
+  left: 0px;
+  top: 67px;
+}
+
+.rapscorp-landing-2 .group-729-g11TVc {
+  background-color: transparent;
+  height: 303px;
+  left: 663px;
+  position: absolute;
+  top: 2933px;
+  width: 143px;
+}
+
+.rapscorp-landing-2 .group-639-b68bxb {
+  background-color: transparent;
+  height: 303px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 163px;
+}
+
+.rapscorp-landing-2 .quick-links-ffcSF9 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .home-ffcSF9 {
+  left: -0px;
+  top: 36px;
+}
+
+.rapscorp-landing-2 .about-us-ffcSF9 {
+  left: -0px;
+  top: 67px;
+}
+
+.rapscorp-landing-2 .raps-team-ffcSF9 {
+  left: -0px;
+  text-align: left;
+  top: 98px;
+}
+
+.rapscorp-landing-2 .services-ffcSF9 {
+  left: -0px;
+  text-align: left;
+  top: 130px;
+}
+
+.rapscorp-landing-2 .social-responsibility-ffcSF9 {
+  left: -0px;
+  text-align: left;
+  top: 161px;
+}
+
+.rapscorp-landing-2 .events-ffcSF9 {
+  left: -0px;
+  text-align: left;
+  top: 192px;
+}
+
+.rapscorp-landing-2 .careers-ffcSF9 {
+  left: -0px;
+  top: 223px;
+}
+
+.rapscorp-landing-2 .blog-ffcSF9 {
+  left: -0px;
+  top: 255px;
+}
+
+.rapscorp-landing-2 .contact-ffcSF9 {
+  background-color: transparent;
+  height: auto;
+  left: -0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 286px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .group-708-g11TVc {
+  background-color: transparent;
+  height: 301px;
+  left: 1150px;
+  position: absolute;
+  top: 2933px;
+  width: 234px;
+}
+
+.rapscorp-landing-2 .group-641-cSxHxY {
+  background-color: transparent;
+  height: 301px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 215px;
+}
+
+.rapscorp-landing-2 .letss-connect-UATADY {
+  background-color: transparent;
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .raps-consulting-inc-UATADY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 36px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .x1-6094548993-UATADY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 83px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .salesrapscorpcom-UATADY {
+  background-color: transparent;
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 130px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .rapscorp-2022-all-right-reserved-UATADY {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 286px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .span0-dGySrF {
+  color: var(--picton-blue);
+  font-style: normal;
+}
+
+.rapscorp-landing-2 .span1-dGySrF {
+  color: var(--white);
+  font-style: normal;
+}
+
+.rapscorp-landing-2 .x505-thornall-street-cSxHxY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .about-us {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.rapscorp-landing-2 .blog {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.rapscorp-landing-2 .careers {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.rapscorp-landing-2 .component-132 {
+  background-color: transparent;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .ellipse-22 {
+  mix-blend-mode: normal;
+  position: absolute;
+}
+
+.rapscorp-landing-2 .ellipse-90 {
+  -webkit-backdrop-filter: blur(12.75px) brightness(100%);
+  backdrop-filter: blur(12.75px) brightness(100%);
+  background-color: #ffffff33;
+  border: 4.5px solid;
+  border-color: #ffffff99;
+  border-radius: 70.88px;
+  height: 142px;
+  left: 980px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 266px;
+  width: 142px;
+}
+
+.rapscorp-landing-2 .events {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: auto;
+}
+
+.rapscorp-landing-2 .facebook {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: auto;
+}
+
+.rapscorp-landing-2 .home {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.rapscorp-landing-2 .image-36 {
+  background-color: transparent;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+}
+
+.rapscorp-landing-2 .it-services {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.rapscorp-landing-2 .know-more {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 44px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+ 
+  text-align: center;
+  top: 255px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-landing-2 .lorem-ipsum-dolor-si {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+}
+
+.rapscorp-landing-2 .mask-group {
+  background-color: transparent;
+  position: absolute;
+}
+
+.rapscorp-landing-2 .raps-team {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: auto;
+}
+
+.rapscorp-landing-2 .read-more {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.rapscorp-landing-2 .rectangle-354 {
+  background-color: #9cd2ff;
+  border: 4.468084812164307px solid;
+  border-color: #d9edff;
+  border-radius: 44.68px;
+  height: 328px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .rectangle-418 {
+  background-color: #00000033;
+  height: 675px;
+  left: 663px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 777px;
+}
+
+.rapscorp-landing-2 .rectangle-48 {
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+}
+
+.rapscorp-landing-2 .rectangle-53 {
+  border-color: var(--white);
+  border-radius: 74.47px;
+  height: 45px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 45px;
+}
+
+.rapscorp-landing-2 .rectangle-81 {
+  background-color: transparent;
+  mix-blend-mode: normal;
+  position: absolute;
+}
+
+.rapscorp-landing-2 .services {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: auto;
+}
+
+.rapscorp-landing-2 .social-responsibility {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: auto;
+}
+
+.rapscorp-landing-2 .staffing-services {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+
+.rapscorp-landing-2 .union {
+  background-color: transparent;
+  left: -4px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+}
+
+.rapscorp-landing-2 .vector-15 {
+  background-color: transparent;
+  position: absolute;
+}
+
+.rapscorp-landing-2 .vector-16 {
+  background-color: transparent;
+  height: 17px;
+  left: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 14px;
+  transform: rotate(-90.00deg);
+  width: 2px;
+}
+
+.rapscorp-landing-2 .vector-5 {
+  background-color: transparent;
+  height: 19px;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+  width: 11px;
+}

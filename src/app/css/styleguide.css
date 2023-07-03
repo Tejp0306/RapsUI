@@ -1,0 +1,102 @@
+:root { 
+  --absolute-zero: #0357c2;
+  --black: #000000;
+  --picton-blue: #3ed9f0;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 16.4px;
+  --font-size-xl: 51px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 56px;
+  --font-size-xxxl: 64px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.montserrat-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-medium-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-light-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.montserrat-medium-absolute-zero-64px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-semi-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-normal-white-10-4px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 10.4px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-light-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.montserrat-medium-white-64px {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}

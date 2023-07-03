@@ -1,0 +1,2207 @@
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+    height:auto;
+  }
+  .rapscorp-landing-2[_ngcontent-ng-c550039398] .flex-row[_ngcontent-ng-c550039398] {
+    align-items: center;
+    display: flex;
+    margin-left: 62px;
+    margin-top: 300px;
+    min-width: 109vw;
+    justify-content: center;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  /* screen - rapscorp-landing-2 */
+  
+  .rapscorp-landing-2 {
+    align-items: center;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .rapscorp-landing-2 .navbar {
+    align-items: center;
+    display: flex;
+    margin-right: 8.0px;
+    margin-top: 20px;
+    width:97%;
+  }
+  
+  .rapscorp-landing-2 .image-27 {
+    height: 91px;
+    object-fit: cover;
+    width: 247px;
+  }
+  
+  .rapscorp-landing-2 .flex-col {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 5.31px;
+    margin-left: 50px;
+    min-height: 33px;
+    width: 44px;
+  }
+  
+  .rapscorp-landing-2 .place {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 17px;
+    min-width: 44px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-27 {
+    background-color: var(--absolute-zero);
+    border-radius: 2.79px;
+    height: 6px;
+    margin-right: 0.42px;
+    width: 6px;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-about-us {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 26px;
+    margin-top: 2.2px;
+    min-height: 17px;
+    min-width: 65px;
+    opacity: 14.4;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-raps-team {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 26px;
+    margin-top: 2.2px;
+    min-height: 17px;
+    min-width: 77px;
+    opacity: 14.4;
+    text-align: center;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-services {
+    min-width: 58px;
+    text-align: center;
+    opacity: 14.4;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-social-responsibility {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 26px;
+    margin-top: 0.2px;
+    min-height: 17px;
+    min-width: 143px;
+    opacity: 14.4;
+    text-align: center;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-events {
+    min-width: 48px;
+    text-align: center;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-careers {
+    min-width: 53px;
+  }
+  
+  .rapscorp-landing-2 .navbar-link-blog {
+    min-width: 33px;
+  }
+  
+  #hen{
+    float: right;
+    margin-top: 81px;
+    opacity: 1;
+    width: 450px;
+    position:static;
+    margin-right:20px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapse:hover {
+    background-color: #ccc;
+  }
+  
+  .spinner {
+    position: absolute;
+    top:344px;
+    left:386px;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  /* Style the collapsible content. Note: hidden by default */
+  /* .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .navbar-link:hover{
+   color:#0357c2;
+   font-size:larger;
+  } */
+  .overlap-group-2 {
+    transform: rotate(90deg);
+  }
+  
+  .container .content {
+    display: none;
+    padding : 5px;
+  }
+  .container {
+    max-width:2066px;
+  }
+  .d-block.w-100 {
+    height: 512px;
+  }
+  
+  .rapscorp-landing-2 .component-107 {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 0.93px;
+    margin-left: 55px;
+    min-width: 59px;
+  }
+  
+  .rapscorp-landing-2 .group-556 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 69.78px;
+    display: flex;
+    height: 42px;
+    justify-content: flex-end;
+    min-width: 59px;
+    padding: 0 1.4px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group {
+    align-items: flex-start;
+    background-image: url(/assets/img/rectangle-304-1.svg);
+    background-size: 100% 100%;
+    display: flex;
+    min-width: 56px;
+  }
+  #toggle-btn {
+  
+  }
+  
+  .rotate img {
+    transform: rotate(-180deg);
+    transition: .3s;
+  }
+  
+  #im1{
+    width:99%;
+  }
+  
+  #im2{
+    width:110%;
+  }
+  #prev {
+    position: absolute;
+    top:573px;
+    right: 171px;
+    border-radius: 90px;
+    width: 59px;
+    height: 58px;
+    background-color: transparent;
+  }
+  #next{
+    position: absolute;
+      top:573px;
+      right: 251px;
+      border-radius: 90px;
+      width: 59px;
+      height: 58px;
+      
+      background-color: transparent;
+  }
+  
+  button#next:hover {
+    color:blue;
+  }
+  
+  .carousel-control-prev {
+    z-index: 20;
+    display:none;
+  }
+  .visually-hidden {
+    display: none;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .rapscorp-landing-2 .rectangle-305 {
+    height: 39px;
+    object-fit: cover;
+    width: 56px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-1 {
+    align-items: flex-start;
+    background-color: var(--absolute-zero);
+    border-radius: 69.78px;
+    display: flex;
+    height: 42px;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    margin-left: 20px;
+    min-width: 149px;
+    padding: 13.3px 38.6px;
+  }
+  
+  .rapscorp-landing-2 .contact-us {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 12.6px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 15px;
+    min-width: 71px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .component-139 {
+    background-color: var(--white);
+    
+  
+    margin-top: 15px;
+    opacity: 0;
+   
+    transform: translate(0, 25px);
+    width: 100vw;
+  }
+  
+  .rapscorp-landing-2 .component-139.animate-enter {
+    animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    opacity: 0;
+    transform: translate(0, 25px);
+    height:979px;
+  }
+  
+  @keyframes animate-enter-frames {
+    from{opacity: 0;
+  transform: translate(0, 25px);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .rapscorp-landing-2 .overlap-group5 {
+    height: 675px;
+    position: relative;
+    width: 2880px;
+  }
+  
+  .rapscorp-landing-2 .group-707 {
+    /* align-items: flex-start;
+    display: flex; */
+    height: 675px;
+    /* left: 0; */
+    /* min-width: 2880px;
+    position: absolute; */
+    top: 0;
+  }
+  
+  .rapscorp-landing-2 .overlap-group1 {
+    height: 675px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .rapscorp-landing-2 .image-36 {
+    height: 675px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1400px;
+  }
+  
+  .rapscorp-landing-2 .component-132 {
+    align-items: flex-start;
+    background-image: url(/assets/img/rectangle-81-1.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 675px;
+    left: 0;
+    min-width: 663px;
+    position: absolute;
+    top: 117px;
+  }
+  
+  .rapscorp-landing-2 .mask-group {
+    height: 675px;
+    width: 663px;
+    display: none;
+  }
+  
+  .rapscorp-landing-2 .component-138 {
+    align-items: flex-start;
+    display: flex;
+    height: 340px;
+    left: 282px;
+    min-width: 339px;
+    opacity: 0.3;
+    position: absolute;
+    top: 280px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-container {
+    height: 340px;
+    position: relative;
+    width: 339px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-86 {
+    border: 1.5px solid;
+    border-color: var(--white);
+    border-radius: 48.29px/170px;
+    height: 340px;
+    left: 121px;
+    position: absolute;
+    top: 0;
+    width: 97px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-87 {
+    border: 1.5px solid;
+    border-color: var(--white);
+    border-radius: 48.43px/169.5px;
+    height: 339px;
+    left: 121px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(90.00deg);
+    width: 97px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-88 {
+    border: 1.5px solid;
+    border-color: var(--white);
+    border-radius: 48.36px/169.75px;
+    height: 340px;
+    left: 121px;
+    position: absolute;
+    top: 0;
+    transform: rotate(45.08deg);
+    width: 97px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-89 {
+    border: 1.5px solid;
+    border-color: var(--white);
+    border-radius: 48.36px/169.75px;
+    height: 340px;
+    left: 121px;
+    position: absolute;
+    top: 0;
+    transform: rotate(134.92deg);
+    width: 97px;
+  }
+  
+  .rapscorp-landing-2 .focused-on-creating {
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 212px;
+  }
+  
+  .rapscorp-landing-2 .span1 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+  }
+  
+  .rapscorp-landing-2 .span2 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+  }
+  
+  .rapscorp-landing-2 .rectangle-418 {
+    background-color: #00000033;
+    height: 675px;
+    left: 663px;
+    position: absolute;
+    top: 0;
+    width: 777px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-90 {
+    -webkit-backdrop-filter: blur(12.75px) brightness(100%);
+    backdrop-filter: blur(12.75px) brightness(100%);
+    background-color: #ffffff33;
+    border: 4.5px solid;
+    border-color: #ffffff99;
+    border-radius: 70.88px;
+    height: 142px;
+    left: 980px;
+    position: absolute;
+    top: 266px;
+    width: 142px;
+  }
+  
+  .rapscorp-landing-2 .icon-play {
+    height: 45px;
+    left: 1036px;
+    position: absolute;
+    top: 314px;
+    width: 39px;
+  }
+  
+  .rapscorp-landing-2 .frame-10 {
+    flex-direction: column;
+    gap: 889px;
+    height: 675px;
+    overflow: hidden;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    min-width: 1440px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group3 {
+    -webkit-backdrop-filter: blur(40.5px) brightness(100%);
+    align-items: flex-start;
+    backdrop-filter: blur(40.5px) brightness(100%);
+    background-color: #ffffff1a;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    min-height: 675px;
+    padding: 167.2px 29px;
+    width: 663px;
+  }
+  
+  .rapscorp-landing-2 .providing-profession {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 248px;
+    min-width: 559px;
+  }
+  
+  .rapscorp-landing-2 .span-1 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+  }
+  
+  .rapscorp-landing-2 .span-2 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+  }
+  
+  .rapscorp-landing-2 .group-633 {
+    align-items: flex-start;
+    display: flex;
+    gap: 30px;
+    margin-left: 46px;
+    min-width: 169px;
+  }
+  
+  .rapscorp-landing-2 .read-more {
+    align-self: center;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 16.5px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1.0px;
+    min-height: 20px;
+    min-width: 92px;
+    text-align: center;
+  }
+  
+  .rapscorp-landing-2 .group-113-1 {
+    align-items: flex-end;
+    background-color: var(--white);
+    border-radius: 22.5px;
+    display: flex;
+    height: 45px;
+    margin-top: 0;
+    min-width: 45px;
+  }
+  
+  .rapscorp-landing-2 .vector-15-3 {
+    height: 17px;
+    margin-bottom: -1548.99px;
+    margin-left: -715px;
+    width: 11px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group4 {
+    align-items: flex-start;
+    background-color: #00000033;
+    display: flex;
+    height: 675px;
+    min-width: 777px;
+    padding: 266.2px 317.2px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-90-1 {
+    -webkit-backdrop-filter: blur(12.75px) brightness(100%);
+    backdrop-filter: blur(12.75px) brightness(100%);
+    background-color: #ffffff33;
+    border: 4.5px solid;
+    border-color: #ffffff99;
+    border-radius: 70.88px;
+    height: 142px;
+    width: 142px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group2 {
+    align-items: flex-start;
+    background-image: url(/assets/img/image-36-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    gap: 374px;
+    height: 872px;
+    margin-left: -740px;
+    min-width: 1661px;
+  }
+  
+  .rapscorp-landing-2 .vector-49 {
+    align-self: center;
+    height: 39px;
+    margin-bottom: 114.0px;
+    width: 45px;
+  }
+  
+  .rapscorp-landing-2 .group-113-2 {
+    align-items: flex-end;
+    background-color: var(--absolute-zero);
+    border-radius: 30px;
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    left: 185px;
+    min-width: 60px;
+    padding: 20.9px 21.1px;
+    position: absolute;
+    top: 511px;
+  }
+  
+  .rapscorp-landing-2 .vector-15-4 {
+    height: 18px;
+    width: 18px;
+  }
+  
+  
+  .rapscorp-landing-2 .read-more-1 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 22px;
+    font-weight: 500;
+    left: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 530px;
+    width: 123px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group15 {
+    background-size: auto;
+    height: 22%;
+    position: relative;
+    width: 98%;
+    top: 126px;
+  }
+  img.d-block.w-100 {
+    
+    object-fit: fill;
+  }
+  
+  .rapscorp-landing-2 .overlap-group6 {
+    height: 515px;
+    left: 0;
+    /* position: absolute; */
+    top: 0;
+    
+  }
+  
+  .rapscorp-landing-2 .component-132-1 {
+    align-items: flex-start;
+    background-image: url(/assets/img/rectangle-81-2.svg);
+    height: 100%;
+      left: 0;
+      /* min-width: 1400px; */
+      position: absolute;
+      top: 0;
+      border-radius: 20px;
+      width: 100%;
+  }
+  
+  .rapscorp-landing-2 .mask-group-1 {
+    height: 100%;
+      width: 100%;
+      /* margin-left: 3px; */
+      border-radius: 26px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-2 {
+    height: 322px;
+    left: 1033px;
+    position: absolute;
+    top: 45px;
+    width: 322px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-409 {
+    background-color: #ffffff47;
+    border-radius: 96.81px;
+    height: 322px;
+    left: 154px;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg);
+    width: 15px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-412 {
+    background-color: #ffffff70;
+    border-radius: 96.81px;
+    height: 322px;
+    left: 154px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-413 {
+    background-color: #ffffff47;
+    border-radius: 96.81px;
+    height: 322px;
+    left: 154px;
+    position: absolute;
+    top: 0;
+    transform: rotate(90.00deg);
+    width: 15px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-41 {
+    background-color: #ffffff47;
+    border-radius: 96.81px;
+    height: 322px;
+    left: 154px;
+    position: absolute;
+    top: 0;
+    transform: rotate(135.00deg);
+    width: 15px;
+  }
+  
+  .rapscorp-landing-2 .title {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxl);
+    font-weight: 500;
+    left: 76px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+  }
+  
+  .rapscorp-landing-2 .we-are-among-the-bes {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 28px;
+    font-weight: 400;
+    left: 76px;
+    letter-spacing: 5px;
+    line-height: 32px;
+    position: absolute;
+    top: 220px;
+    width: 1612px;
+  }
+  
+  .rapscorp-landing-2 .flex-row {
+    display: flex;
+    margin-left: -113px;
+    margin-top: 229px;
+    /* min-width: 100vw; */
+    height: 478px;
+    gap: 62px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .rapscorp-landing-2 .flex-col-1 {
+    gap: 3px;
+    margin-top: 14.89px;
+    min-height: 233px;
+    width: auto;
+  }
+  
+  .rapscorp-landing-2 .group-110 {
+    align-items: flex-start;
+    align-self: flex-end;
+    border: 1.49px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color: var(--absolute-zero);
+    border-radius: 65.23px;
+    display: flex;
+    height: 105px;
+    margin-right: 0;
+    min-width: 105px;
+    padding: 25.0px 25.1px;
+    transform: rotate(90.00deg);
+  }
+  
+  .rapscorp-landing-2 .vector-15-5 {
+    height: 54px;
+  transform: rotate(-90.00deg);
+  width: 48px;
+  }
+  
+  .rapscorp-landing-2 .services-we-offer {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 156px;
+  }
+  
+  .rapscorp-landing-2 .group-726 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 328px;
+    margin-left: 71px;
+    min-width: 503px;
+    transition: all 0.2s ease;
+  }
+  
+  .rapscorp-landing-2 .group-726:hover {
+    transform: translate(-5px, 0);
+  }
+  
+  .rapscorp-landing-2 .overlap-group7 {
+    align-items: flex-start;
+    background-color: #9cd2ff;
+    border: 4.47px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color: #d9edff;
+    border-radius: 44.68px;
+    display: flex;
+    flex-direction: column;
+    height:122%;
+    padding: 32.7px 38.0px;
+    width: 629px;
+  }
+  
+  .rapscorp-landing-2 .it-services {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 33px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 2.17px;
+    min-height: 68px;
+  }
+  
+  .rapscorp-landing-2 .lorem-ipsum-dolor-si {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 84px;
+    min-height: 189px;
+    opacity: 0.6;
+    width: 564px;
+    
+   
+  }
+  
+  .rapscorp-landing-2 .flex-row-1 {
+    align-items: flex-end;
+    display: flex;
+    gap: 20px;
+    margin-left: 6.41px;
+    margin-top: 139px;
+    min-width: 183px;
+  }
+  
+  .rapscorp-landing-2 .know-more {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 26px;
+    font-weight: 500;
+    
+    
+   
+  }
+  .star {
+    float: right;
+    width: 30%;
+    margin-top:43px;
+  }
+  
+  .rapscorp-landing-2 .group-113 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--black);
+    border-radius: 22.34px;
+    display: flex;
+    height: 45px;
+    min-width: 45px;
+    padding: 13.4px 13.6px;
+    margin-top: 31px;
+  }
+  .Know-mor{
+    color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 27px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 141px;
+  }
+  video {
+    object-fit: fill;
+    width: 50%;
+    height: 100%;
+    margin-left:50%;
+  }
+  
+  .row {
+    height: 100%;
+  }
+  
+  .row[_ngcontent-ng-c1870825396] {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 139px;
+    margin-left: -247px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .ro1 {
+    /* display: flex; */
+    
+    /* margin: auto; */
+    width: 101vw;
+  }
+  .rapscorp-landing-2 .vector-15 {
+    height: 14px;
+    width: 14px;
+  }
+  
+  .rapscorp-landing-2 .group-container {
+    height: 328px;
+    
+    position: relative;
+    width: 504px;
+  }
+  
+  .rapscorp-landing-2 .group-113-3 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--black);
+    border-radius: 22.34px;
+    display: flex;
+    height: 45px;
+    min-width: 45px;
+    padding: 13.4px 13.6px;
+    margin-top: 138px;
+  }
+  
+  .rapscorp-landing-2 .vector-15-1 {
+    height: 13px;
+    width: 13px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group8 {
+    align-items: flex-start;
+    background-color: #9cd2ff;
+    border: 4.47px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-color: #d9edff;
+    border-radius: 44.68px;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 203px; */
+    padding: 32.7px 40.2px;
+    position: absolute;
+    top: 0;
+    width: 643px;
+    height: 402px;
+  }
+  
+  .rapscorp-landing-2 .staffing-services {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 68px;
+  }
+  
+  .rapscorp-landing-2 .lorem-ipsum-dolor-si-1 {
+    margin-top: 80px;
+    min-height: 66px;
+    opacity: 0.6;
+    width: 587px;
+  }
+  
+  .rapscorp-landing-2 .flex-row-2 {
+    align-items: flex-end;
+    display: flex;
+    gap: 20px;
+    margin-left: 6.41px;
+    margin-top: 117px;
+    min-width: 183px;
+    height:2px
+  }
+  
+  .rapscorp-landing-2 .overlap-group13 {
+    align-self: center;
+    height: 1141px;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background-image: url(/assets/img/mask-group-3.png);
+    background-size: cover;
+    border-radius: 34px;
+  }
+  
+  .testimonia {
+    position:absolute;
+    top:2485px;
+    left:574px;
+  }
+  
+  .rapscorp-landing-2 .component-134 {
+    align-items: flex-start;
+    background-image: url(/assets/img/rectangle-81-3.svg);
+    background-size: 100% 100%;
+    display: flex;
+    height: 672px;
+    left: 0;
+    min-width: 1400px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .rapscorp-landing-2 .overlap-group9 {
+    background-image: url(/assets/img/mask-group-3.png);
+    background-size: 100% 100%;
+    height: 672px;
+    position: relative;
+    width: 1400px;
+  }
+  
+  .rapscorp-landing-2 .union {
+    height: 139px;
+    left: 442px;
+    position: absolute;
+    top: 60px;
+    width: 156px;
+  }
+  
+  .rapscorp-landing-2 .group-719 {
+    align-items: flex-start;
+    display: flex;
+    height: 69px;
+    left: 565px;
+    min-width: 75px;
+    position: absolute;
+    top: 61px;
+    transform: rotate(180deg);
+  }
+  
+  .rapscorp-landing-2 .union-1 {
+    height: 71px;
+    margin-left: -4px;
+    margin-top: -1.12px;
+    transform: rotate(-180deg);
+    width: 80px;
+  }
+  
+  .rapscorp-landing-2 .image {
+    height: 212px;
+    left: 516px;
+    position: absolute;
+    top: 664px;
+    width: 389px;
+  }
+  
+  .carousel-item {
+    transition: transform .6s ease-in-out;
+    
+  }
+  
+  .rapscorp-landing-2 .shadow-testimonials {
+    height: 523px;
+    left: 494px;
+    position: absolute;
+    top: 144px;
+    width: 926px;
+  }
+  
+  .rapscorp-landing-2 .what-our-clients-e {
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 175px;
+    width: 522px;
+  }
+  
+  .rapscorp-landing-2 .group-48 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--white);
+    border-radius: 74.47px;
+    display: flex;
+    height: 45px;
+    left: 1237px;
+    min-width: 45px;
+    padding: 10.9px 13.1px;
+    position: absolute;
+    top: 596px;
+  }
+  
+  .rapscorp-landing-2 .vector-5 {
+    height: 19px;
+    width: 11px;
+  }
+  
+  .rapscorp-landing-2 .group-49 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 74.47px;
+    display: flex;
+    height: 45px;
+    left: 1296px;
+    min-width: 45px;
+    padding: 12.9px 15.1px;
+    position: absolute;
+    top: 596px;
+    transform: rotate(180deg);
+  }
+  
+  .rapscorp-landing-2 .vector-5-1 {
+    height: 19px;
+    transform: rotate(-180deg);
+    width: 11px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group10 {
+    align-items: flex-start;
+    border: 2px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-color: #a5c4ec;
+    border-radius: 74.47px;
+    display: flex;
+    height: 56px;
+    left: 1554px;
+    min-width: 238px;
+    padding: 12.1px 37.6px;
+    position: absolute;
+    top: 45px;
+  }
+  
+  .rapscorp-landing-2 .what-employees-say {
+    color: #a5c5ed;
+    font-family: var(--font-family-montserrat);
+    font-size: 15.4px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: revert;
+    min-height: 49px;
+    min-width: 149px;
+    text-align: end;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .overlap-group11 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 74.47px;
+   
+    height: 58px;
+   
+    left: 1266px;
+    min-width: 248px;
+    padding: 14.1px 42.2px;
+    position: absolute;
+    top: 45px;
+  }
+  
+  .rapscorp-landing-2 .what-clients-say {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-montserrat);
+    font-size: 15.4px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: revert;
+    min-height: 16px;
+    min-width: 109px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .component-48 {
+  align-items: flex-start;
+  
+  
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  left: 531px;
+  min-height: 31px;
+  padding: 59.7px 192.7px;
+  position: absolute;
+  top: 156px;
+  width: auto;
+  height: 500px;
+  justify-content: flex-start;
+  }
+  
+  .rapscorp-landing-2 .flex-row-3 {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin-left: 0;
+    min-width: 422px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-3 {
+    border-radius: 52.13px;
+    height: 104px;
+    position: relative;
+    width: 104px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-23 {
+    background-color: var(--absolute-zero);
+    border-radius: 52.13px;
+    height: 104px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(90.00deg);
+    width: 104px;
+  }
+  
+  .rapscorp-landing-2 .group-122 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 26px;
+    min-height: 52px;
+    position: absolute;
+    top: 26px;
+    width: 53px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-24 {
+    background-color: var(--white);
+    border-radius: 12.66px;
+    height: 25px;
+    margin-right: 0.74px;
+    transform: rotate(90.00deg);
+    width: 25px;
+  }
+  
+  .rapscorp-landing-2 .ellipse-25 {
+    height: 26px;
+    width: 53px;
+  }
+  
+  .rapscorp-landing-2 .hr-head-pelvic-rehabilitation-medicine {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 1.83px;
+    min-height: 48px;
+    min-width: 303px;
+  }
+  
+  .rapscorp-landing-2 .span0 {
+    font-weight: 700;
+  }
+  
+  .rapscorp-landing-2 .pelvic-rehabilitatio {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: 24px;
+    min-height: 120px;
+    width: auto;
+  }
+  
+  .rapscorp-landing-2 .flex-row-4 {
+    
+    background-image: url(/assets/img/rectangle-80.svg);
+    
+    display: flex;
+    gap: 359px;
+    height: auto;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 1879px;
+    padding: 43px 57.6px;
+    min-height:688px
+  }
+  
+  .rapscorp-landing-2 .flex-col-2 {
+    min-height: 399px;
+    width: 349px;
+  }
+  
+  .rapscorp-landing-2 .your-questions-answered {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 234px;
+  }
+  
+  .rapscorp-landing-2 .cant-find-the-answe {
+    color: #888888;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 57px;
+    min-height: 40px;
+    width: 349px;
+  }
+  
+  .rapscorp-landing-2 .flex-row-5 {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    margin-top: 23px;
+    min-width: 199px;
+  }
+  
+  .rapscorp-landing-2 .get-in-touch {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 0.98px;
+    min-height: 22px;
+    min-width: 134px;
+    text-decoration: underline;
+  }
+  .blog .carousel-indicators {
+      left: 0;
+      top: auto;
+      bottom: -40px;
+  
+  }
+  #jh{
+    object-fit: cover;
+  }
+  #kt[_ngcontent-ng-c2553027984] {
+    object-fit: fill;
+    
+    
+  }
+  .row1{
+    width:100vw;
+    height:1003px;
+  }
+  
+  
+  .\.container-fluid {
+    
+    width: 100% ;
+    height: auto;
+    
+  }
+  
+  img#kt {
+    width: 50%;
+    position:absolute;
+    /* height: 197px; */
+  }
+  img#kl {
+    margin-left: -13px;
+    width: 103%;
+  }
+  
+  /* The colour of the indicators */
+  .blog .carousel-indicators li {
+      background: #a3a3a3;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+  }
+  
+  .blog .carousel-indicators .active {
+  background: #707070;
+  }
+  .rapscorp-landing-2 .group-730 {
+    align-items: flex-start;
+    border: 1.49px solid;
+    border-color: var(--absolute-zero);
+    border-radius: 22.34px;
+    display: flex;
+    height: 45px;
+    min-width: 45px;
+    padding: 14.1px 14.2px;
+  }
+  
+  .rapscorp-landing-2 .group-container-1 {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    margin-bottom: 22.28px;
+    min-height: 344px;
+    width: 854px;
+  }
+  
+  
+  .rapscorp-landing-2 .group-692 {
+    align-items: center;
+    display: flex;
+    gap: 36px;
+    height: 32px;
+    min-width: 808px;
+    justify-content: flex-end;
+  }
+  #toggle-example {
+    
+    margin-top: -23px;
+  }
+  
+  .rapscorp-landing-2 .group-691 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 74px;
+    width: 508px;
+  }
+  
+  .rapscorp-landing-2 .how-do-our-clients-choose-us {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .lorem-ipsum-dolor-si-2 {
+    margin-left: 0;
+    min-height: 34px;
+    width: 771px;
+  }
+  #wrapper {
+    background: #ccc;
+    display:none
+  }
+  .rapscorp-landing-2 .cla {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--black);
+    border-radius: 22.34px;
+    display: flex;
+    height: 45px;
+    margin-top: 1.74px;
+    min-width: 45px;
+    padding: 19.8px 11.7px;
+    transform: rotate(90.00deg);
+    justify-content: flex-end;
+  }
+  
+  .rapscorp-landing-2 .vector-15-6 {
+    height: 2px;
+    transform: rotate(-90.00deg);
+    width: 17px;
+  }
+  
+  .rapscorp-landing-2 .group-693 {
+    align-items: center;
+    display: flex;
+    gap: 597px;
+    height: 32px;
+    min-width: 808px;
+    justify-content: flex-start;
+  }
+  div#toggle-exampl {
+  }
+  
+  .rapscorp-landing-2 .how-do-we-deliver {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1.32px;
+    min-height: 24px;
+    min-width: 191px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .group-12 {
+    align-items: center;
+    display: flex;
+    gap: 467px;
+    height: 32px;
+    min-width: 808px;
+    justify-content: flex-start;
+    
+  }
+  
+  .rapscorp-landing-2 .vector-container {
+    height: 17px;
+    position: relative;
+    width: 17px;
+  }
+  
+  .rapscorp-landing-2 .vector-15-2 {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-90.00deg);
+    width: 17px;
+  }
+  
+  .rapscorp-landing-2 .vector-16 {
+    height: 17px;
+    left: 8px;
+    position: absolute;
+    top: 0;
+    transform: rotate(-90.00deg);
+    width: 2px;
+  }
+  
+  .rapscorp-landing-2 .group-694 {
+    align-items: center;
+    display: flex;
+    gap: 470px;
+    min-width: 854px;
+    padding: 0 0.0px;
+  }
+  
+  .rapscorp-landing-2 .how-do-we-check-our-products {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1.32px;
+    min-height: 24px;
+    min-width: 322px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .group-695 {
+    align-items: flex-start;
+    display: flex;
+    gap: 459px;
+    min-width: 854px;
+    padding: 0 0.0px;
+  }
+  
+  .rapscorp-landing-2 .what-is-our-recruitment-process {
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1.32px;
+    min-height: 24px;
+    min-width: 334px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .group-129 {
+    align-items: center;
+    display: flex;
+    gap: 460px;
+    height: 32px;
+    min-width: 808px;
+    justify-content: flex-start;
+   
+  }
+  
+  .rapscorp-landing-2 .overlap-group14 {
+    height: 238px;
+    margin-top: 19px;
+    position: relative;
+    width: 96vw;
+    margin-bottom:313px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-415 {
+  
+    height: 328px;
+    left: 720px;
+    position: absolute;
+    top: 117px;
+    width: 375px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-422 {
+    height: auto;
+    
+    position: absolute;
+    top: 0;
+    width: 97vw;
+  }
+  button.fas.fa-greater-than:hover {
+    background-color: white;
+    color: blue;
+  }
+  button.fas.fa-greater-than {
+    font-size: 24px;
+    float: right;
+    right: 276px;
+    border-radius: 41px;
+    width: 3%;
+    height: 56px;
+    position: absolute;
+    top: 551px;
+    background-color: transparent;
+    border-color: 2px white solid !important;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  button.fas.fa-less-than:hover {
+  background-color: white;
+   color:blue;
+  }
+  button#toggle-bt1 {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  button.fas.fa-less-than {
+    border-radius: 41px;
+    width: 3%;
+    height: 55px;
+    float: right;
+    top: 553px;
+    position: absolute;
+    right: 20;
+    margin-right: 335px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+   
+  }
+  .rapscorp-landing-2 .get-the-latest-information-from-us {
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: 34px;
+    font-weight: 500;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 59px;
+  }
+  
+  .rapscorp-landing-2 .span-3 {
+    color: var(--white);
+  }
+  
+  .rapscorp-landing-2 .span-4 {
+    color: var(--picton-blue);
+  }
+  
+  .rapscorp-landing-2 .component-145 {
+    align-items: flex-start;
+    display: flex;
+    height: 30px;
+    left: 63px;
+    min-width: 98px;
+    position: absolute;
+    top: 338px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-4 {
+    align-items: flex-start;
+    border: 0.74px solid;
+    border-color: var(--white);
+    border-radius: 744.68px;
+    display: flex;
+    height: 30px;
+    min-width: 98px;
+    padding: 8.2px 23.1px;
+  }
+  
+  .rapscorp-landing-2 .facebook {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 13px;
+    min-width: 51px;
+    text-align: center;
+  }
+  
+  .rapscorp-landing-2 .component-146 {
+    align-items: flex-start;
+    display: flex;
+    height: 30px;
+    left: 185px;
+    min-width: 98px;
+    position: absolute;
+    top: 338px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-5 {
+    align-items: flex-start;
+    border: 0.74px solid;
+    border-color: var(--white);
+    border-radius: 744.68px;
+    display: flex;
+    height: 30px;
+    min-width: 98px;
+    padding: 8.2px 25.1px;
+  }
+  
+  .rapscorp-landing-2 .facebook-1 {
+    min-width: 46px;
+  }
+  
+  .rapscorp-landing-2 .component-147 {
+    align-items: flex-start;
+    display: flex;
+    height: 30px;
+    left: 308px;
+    min-width: 98px;
+    position: absolute;
+    top: 338px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-6 {
+    align-items: flex-start;
+    border: 0.74px solid;
+    border-color: var(--white);
+    border-radius: 744.68px;
+    display: flex;
+    height: 30px;
+    min-width: 98px;
+    padding: 8.2px 21.1px;
+  }
+  
+  .rapscorp-landing-2 .facebook-2 {
+    min-width: 54px;
+  }
+  
+  .rapscorp-landing-2 .component-148 {
+    align-items: flex-start;
+    display: flex;
+    height: 30px;
+    left: 431px;
+    min-width: 98px;
+    position: absolute;
+    top: 338px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group-7 {
+    align-items: flex-start;
+    border: 0.74px solid;
+    border-color: var(--white);
+    border-radius: 744.68px;
+    display: flex;
+    height: 30px;
+    min-width: 98px;
+    padding: 8.2px 30.1px;
+  }
+  
+  .rapscorp-landing-2 .facebook-3 {
+    min-width: 37px;
+  }
+  
+  .rapscorp-landing-2 .rectangle-74 {
+    height: 89px;
+    left: 60px;
+    position: absolute;
+    top: 198px;
+    width: 469px;
+  }
+  
+  .rapscorp-landing-2 .group-113-4 {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: var(--white);
+    border-radius: 22.34px;
+    cursor: pointer;
+    display: flex;
+    height: 45px;
+    left: 447px;
+    min-width: 45px;
+    padding: 13.4px 13.6px;
+    position: absolute;
+    top: 220px;
+  }
+  
+  .rapscorp-landing-2 .email-address {
+    background-color: transparent;
+    border: 0;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    height: 24px;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: absolute;
+    top: 230px;
+    white-space: nowrap;
+    width: 335px;
+  }
+  
+  .rapscorp-landing-2 .email-address::placeholder {
+    color: #ffffff99;
+  }
+  
+  .rapscorp-landing-2 .group-728 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    left: 1195px;
+    min-height: 84px;
+    position: absolute;
+    top: 60px;
+    width: 122px;
+  }
+  
+  .rapscorp-landing-2 .our-services {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 22px;
+  }
+  
+  .rapscorp-landing-2 .it-services-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+  }
+  
+  .rapscorp-landing-2 .staffing-services-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+  }
+  
+  .rapscorp-landing-2 .group-729 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    left: 852px;
+    min-height: 303px;
+    position: absolute;
+    top: 60px;
+    width: 143px;
+  }
+  
+  .rapscorp-landing-2 .quick-links {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 22px;
+  }
+  
+  .rapscorp-landing-2 .about-us {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 321px;
+  }
+  
+  .rapscorp-landing-2 .raps-team {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 101px;
+  }
+  
+  .rapscorp-landing-2 .services {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 135px;
+  }
+  
+  .rapscorp-landing-2 .social-responsibility {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 170px;
+  }
+  
+  .rapscorp-landing-2 .events {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 206px;
+  }
+  
+  .rapscorp-landing-2 .careers {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 244px;
+  }
+  
+  .rapscorp-landing-2 .blog {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+    margin-top: 282px;
+  }
+  
+  .rapscorp-landing-2 .overlap-group12 {
+    height: 301px;
+    left: 1518px;
+    position: absolute;
+    top: 60px;
+    width: 232px;
+  }
+  
+  .rapscorp-landing-2 .group-641 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 301px;
+    position: absolute;
+    top: 0;
+    width: 215px;
+  }
+  
+  .rapscorp-landing-2 .letss-connect {
+    color: var(--picton-blue);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 22px;
+  }
+  
+  .rapscorp-landing-2 .raps-consulting-inc {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 14px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .phone {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 23px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .salesrapscorpcom {
+    color: var(--picton-blue);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 23px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .rapscorp-landing-2 .rapscorp-2022-all-right-reserved {
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0.32px;
+    margin-top: 132px;
+    min-height: 15px;
+  }
+  
+  .rapscorp-landing-2 .address {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 176px;
+  }
+  
+  .rapscorp-landing-2 .facebook-4 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 13px;
+    text-align: center;
+  }
+  
+  .rapscorp-landing-2 .flex-col-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rapscorp-landing-2 .frame {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    width: 1440px;
+  }
+  
+  .rapscorp-landing-2 .lorem-ipsum-dolor-si-3 {
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .rapscorp-landing-2 .navbar-link {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 26px;
+    margin-top: 0.2px;
+    min-height: 17px;
+    opacity: 14.4;
+  }
+  
+  .rapscorp-landing-2 .place-3 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 0;
+    min-height: 17px;
+  }
+  :root { 
+    --absolute-zero: #0357c2;
+    --black: #000000;
+    --picton-blue: #3ed9f0;
+    --white: #ffffff;
+   
+    --font-size-l: 20px;
+    --font-size-m: 18px;
+    --font-size-s: 16.4px;
+    --font-size-xl: 51px;
+    --font-size-xs: 14px;
+    --font-size-xxl: 56px;
+    --font-size-xxxl: 64px;
+   
+    --font-family-montserrat: "Montserrat", Helvetica;
+  }
+  .montserrat-normal-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-normal-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-medium-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-light-white-51px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .montserrat-medium-absolute-zero-64px {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-montserrat);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-semi-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .montserrat-normal-white-10-4px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 10.4px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-light-white-56px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .montserrat-medium-white-64px {
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .montserrat-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .montserrat-light-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 300;
+  }
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6480dbfcdca0f769494e1aeb.6480dbff94a86ff0186534bf.ZyMnAdW.hcp.png");
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  
+  @media only screen and (max-width:600px) {
+  
+    .container-fluid {
+      width: 70%;
+      background-color: red;
+    }
+    }
+  
