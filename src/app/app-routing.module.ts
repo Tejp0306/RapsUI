@@ -4,6 +4,8 @@ import {AboutusComponent} from './Navbarlinks/aboutus/aboutus.component';
 import { Router } from '@angular/router';
 import { ContentComponent } from './Navbarlinks/content/content.component';
 import { FooterComponent } from './Navbarlinks/footer/footer.component';
+import { ContactusComponent } from './Navbarlinks/contactus/contactus.component';
+import { ServicesComponent } from './Navbarlinks/services/services.component';
  
 const routes: Routes = [
   {
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path:'footer',
     component:FooterComponent
+  },
+  {
+    path:'contactus',
+    component:ContactusComponent
+  },
+  {
+    path:'services',
+    component:ServicesComponent
   }
 ];
 

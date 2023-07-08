@@ -21,6 +21,50 @@
   width: 2440px;
 }
 
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border[_ngcontent-ng-c587397943]:after {
+  content: '';
+  position: absolute;
+  top: calc(3 * var(--borderWidth));
+  left: calc(102 * var(--borderWidth));
+  height: 153%;
+  width: 75%;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(9 * var(--borderWidth));
+  animation: _ngcontent-ng-c587397943_animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
 .about-us .navbar {
   align-items: center;
   display: flex;
@@ -866,7 +910,7 @@ width: 67%;
   font-weight: 600;
 }
 ngb-carousel {
-  max-width: 700px;
+ 
   margin: 50px auto;
 }
 ngb-carousel img {
@@ -874,7 +918,7 @@ ngb-carousel img {
   outline: none;
 }
 ngb-carousel {
-  width: inherit;
+  
   height: inherit;
 }
 .carousel-inner {
@@ -1108,8 +1152,62 @@ ngb-carousel {
   gap: 13%;
   width: auto;
 }
-#numberrotation{
-  background-image: url("../aboutus/img/convno.png");
+
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+ #numberrotation {
+  background-image: url('../aboutus/img/convno.png');
+  width: 74%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 144%;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 60px 32px 168px;
+  gap:12%;
+  background:white;
+  z-index:1;
+  border-radius:16px;
+  margin-top: 5%;
+} 
+/* .row number-rotation::before{
+  content:'';
+  height:151%;
+  width:141%;
+  position: absolute;
+  background: conic-gradient(
+    #fd004c,
+    red,
+    blue,
+    green
+    
+
+
+  );
+  left:-25px;
+} */
+
+#o[_ngcontent-ng-c1629844402] {
+  display: flex;
+  gap: 88%;
+  
+  z-index: 2;
+  
+  justify-content: end;
+  
+  left: 20%;
+  position: absolute;
+  top: 936%;
 }
 
 #mainvalue {
@@ -1801,7 +1899,7 @@ ngb-carousel {
 
 .about-us .span1-4 {
   font-family: var(--font-family-rubik-light);
-  font-size: 124px;
+  font-size: 66px;
   font-weight: 300;
 }
 
@@ -1826,6 +1924,7 @@ ngb-carousel {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -1920,7 +2019,7 @@ h1 {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 74px;
   transform: translateX(-50%);
   width: 30px;
   height: 30px;
@@ -1949,10 +2048,14 @@ h1 {
 .timeline ul li div::before {
   content: "";
   position: absolute;
-  bottom: 7px;
-  width: 0;
-  height: 0;
-  border-style: solid;
+  background: -webkit-linear-gradient(350deg, rgba(49, 27, 146, .8) 35%, rgba(125, 38, 205, .75));
+  background: linear-gradient(350deg, rgba(49, 27, 146, .8) 35%, rgba(125, 38, 205, .75));
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .timeline ul li:nth-child(odd) div {
@@ -2186,30 +2289,31 @@ div {
 div {
   font: 800 40px system-ui;
 }
-#value{
 
-  color:blue;
+#value {
+  color: black;
   display: inline-flex;
-  font-size: 100px;
+  font-size: 94px;
+  font-family: fantasy;
+  font-weight: initial;
 }
 #value2{
 
-  color:blue;
+  color: black;
   display: inline-flex;
-  font-size: 100px;
+  font-size: 94px;
+  font-family: fantasy;
+  font-weight: initial;
 }
 #value3{
 
-  color:blue;
+  color: black;
   display: inline-flex;
-  font-size: 100px;
+  font-size: 94px;
+  font-family: fantasy;
+  font-weight: initial;
 }
-#numberrotation[_ngcontent-ng-c2044750199] {
-  display: flex;
-  gap: 10%;
-  width: 56%;
-  justify-content: center;
-}
+
 
 .we-are-one-of-the-na {
 

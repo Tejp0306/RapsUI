@@ -17,6 +17,8 @@ import { AboutusComponent } from './Navbarlinks/aboutus/aboutus.component';
 import { HeaderComponent } from './Navbarlinks/header/header.component';
 import { ContentComponent } from './Navbarlinks/content/content.component';
 import { FooterComponent } from './Navbarlinks/footer/footer.component';
+import { ContactusComponent } from './Navbarlinks/contactus/contactus.component';
+import { ServicesComponent } from './Navbarlinks/services/services.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { FooterComponent } from './Navbarlinks/footer/footer.component';
     AboutusComponent,
     HeaderComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    ContactusComponent,
+    ServicesComponent
     
   ],
   imports: [

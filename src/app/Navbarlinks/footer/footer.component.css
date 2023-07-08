@@ -1,3 +1,20 @@
+#footer{
+  background:blue;
+  width: 100%;
+  height: 50%;
+  border-radius: 35px;
+  padding:30px 20px;
+}
+.firstcol{
+  margin-left:53px;
+  gap:143px;
+}
+#column1{
+  width: 70%;
+}
+.social{
+  gap:57px;
+}
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700,600,300,500,400|Rubik:300,400");
@@ -6,1208 +23,992 @@
   box-sizing: border-box;
 }
 
-.overlap-group18 {
-  align-items: flex-end;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6480dc01f84dd3d723bc287a/releases/64819924d9aad34a53ab638d/img/rectangle-422.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 398px;
-  justify-content: flex-end;
-  margin-top: 20px;
-  min-width: 1400px;
-  padding: 29.8px 38.3px;
+.group-641-8kHmpC {
+  background-color: transparent;
+  height: 20.9vw;
+  left: 0vw;
+
+  top: 0vw;
+  width: 28%;
 }
 
-.overlap-group15 {
-  height: 301px;
-  margin-bottom: 7.34px;
-  margin-left: 146px;
-  position: relative;
-  width: 232px;
+li {
+  padding: 10px;
+}
+.bi-arrow-right::before {
+  content: "\f138";
+  color: white;
+}
+.raps-consulting-inc-pa5NFW {
+  left: 0vw;
+  line-height: normal;
+  mix-blend-mode: normal;
+  text-align: left;
+  top: 2.5vw;
+  white-space: nowrap;
+  width: auto;
 }
 
-.group-641 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 0;
-  min-height: 301px;
+.about-us .raps-consulting-inc {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0vw;
   position: absolute;
-  top: 0;
-  width: 215px;
 }
 
-.raps-consulting-inc-1 {
-  letter-spacing: 0;
+.x1-6094548993-pa5NFW {
+  background-color: transparent;
+  height: auto;
+  left: 0vw;
+  letter-spacing: 0vw;
   line-height: normal;
-  margin-top: 14px;
-  min-height: 24px;
+  mix-blend-mode: normal;
+  
+  text-align: left;
+  top: 5.76vw;
   white-space: nowrap;
+  width: auto;
 }
-
-.phone {
-  letter-spacing: 0;
+.raps-consulting-inc-pa5NFWraps-consulting-incmontserrat-light-white-40px {
+  font-size: 33px;
+}
+.x1-6094548993-pa5NFWmontserrat-light-white-20px {
+  font-size: 33px;;
+}
+.letss-connect-pa5NFW {
+  background-color: transparent;
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 0vw;
+  letter-spacing: 0vw;
   line-height: normal;
-  margin-top: 23px;
-  min-height: 24px;
-  white-space: nowrap;
+  mix-blend-mode: normal;
+  
+  text-align: left;
+  top: 0vw;
+  width: auto;
+}
+.span0-89PdF4 {
+  font-size: 38px;
 }
 
-.letss-connect {
+.salesrapscorpcom-pa5NFW {
+  background-color: transparent;
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 0vw;
+  letter-spacing: 0vw;
+  line-height: normal;
+  mix-blend-mode: normal;
+ 
+  text-align: left;
+  top: 9.03vw;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rapscorp-2022-all-right-reserved-pa5NFW {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: 0.83vw;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0vw;
+  letter-spacing: 0vw;
+  line-height: normal;
+
+  text-align: left;
+  top: 19.86vw;
+  width: auto;
+}
+
+.span0-89PdF4 {
+  color: var(--picton-blue);
+  font-style: normal;
+}
+
+.listsocial{
+  display: inline-flex;
+}
+
+.span1-89PdF4 {
+  color: var(--white);
+  font-style: normal;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  border-radius: 64px;
+  border: 3px solid white;
+  background: transparent;
+}
+.heading1{
+  font-size:52px;
+}
+.heading2{
+  font-size:52px;
+}
+.d-flex{
+  gap:57px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 19px;
+  width: 17%;
+  text-align: center;
+  height: 38px;
+}
+
+button {
+  background: transparent;
+  border-radius: 56%;
+  height: 64px;
+  width: 60px;
+  border: 2px solid white;
+  position: absolute;
+  right: 20px;
+  top: 9px;
+}
+/* Variables */
+.inputcontainer {
+  height: 84px;
+position: relative;
+}
+:root {
+  --black-2: rgba(0, 0, 0, 0.161);
+  --black-22: rgba(0, 0, 0, 0.2);
+  --black: rgba(0, 0, 0, 1);
+  --absolute-zero-2: rgba(3, 87, 194, 0.2);
+  --absolute-zero: rgba(3, 87, 194, 1);
+  --cosmic-cobalt: rgba(46, 63, 142, 1);
+  --picton-blue: rgba(62, 217, 240, 1);
+  --royal-blue: rgba(76, 102, 223, 1);
+  --chicago: rgba(92, 92, 92, 1);
+  --suva-gray: rgba(136, 136, 136, 1);
+  --anakiwa-3: rgba(151, 249, 249, 0.2);
+  --anakiwa-2: rgba(151, 249, 249, 1);
+  --anakiwa: rgba(156, 210, 255, 1);
+  --winter-wizard-2: rgba(159, 209, 254, 0.2);
+  --winter-wizard: rgba(159, 209, 254, 1);
+  --perano: rgba(165, 196, 236, 1);
+  --perano-2: rgba(165, 197, 237, 1);
+  --pink-swan: rgba(183, 183, 183, 1);
+  --periwinkle: rgba(191, 202, 255, 1);
+  --melrose-2: rgba(193, 190, 252, 0.2);
+  --melrose: rgba(193, 190, 252, 1);
+  --mauve-2: rgba(212, 163, 253, 0.2);
+  --mauve: rgba(212, 163, 253, 1);
+  --mabel: rgba(217, 237, 255, 1);
+  --titan-white: rgba(237, 240, 255, 1);
+  --wild-sand: rgba(243, 243, 243, 1);
+  --white-42: rgba(255, 255, 255, 0.102);
+  --white-32: rgba(255, 255, 255, 0.2);
+  --white-22: rgba(255, 255, 255, 0.6);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xs: 14px;
+  --font-size-s: 16.4px;
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 20px;
+  --font-size-xl: 22px;
+  --font-size-xl: 51px;
+  --font-size-xxl: 56px;
+  --font-size-xxxl: 64px;
+  --font-size-xl2: 24px;
+
+  --font-family-kameron: "Kameron";
+  --font-family-lato: "Lato";
+  --font-family-maven_pro: "Maven Pro";
+  --font-family-maven_pro-bold: "Maven Pro-Bold";
+  --font-family-maven_pro-regular: "Maven Pro-Regular";
+  --font-family-montserrat: "Montserrat";
+  --font-family-montserrat-bold: "Montserrat-Bold";
+  --font-family-montserrat-light: "Montserrat-Light";
+  --font-family-montserrat-medium: "Montserrat-Medium";
+  --font-family-montserrat-regular: "Montserrat-Regular";
+  --font-family-montserrat-semibold: "Montserrat-SemiBold";
+  --font-family-poppins: "Poppins";
+  --font-family-rubik: "Rubik";
+  --font-family-rubik-light: "Rubik-Light";
+  --font-family-rubik-regular: "Rubik-Regular";
+}
+
+/* Classes */
+
+.montserrat-medium-white-64px-2 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-13-4px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 13.404255867004395px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-12px-2 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-white-12px {
+  font-family: var(--font-family-montserrat);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-picton-blue-18px {
   color: var(--picton-blue);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
   font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 22px;
+  font-style: normal;
 }
-
-.salesrapscorpcom {
+.montserrat-light-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-light);
+  font-size: var(--font-size-s);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 51px;
+  font-weight: 600;
+  font-style: normal;
+}
+.lato-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 51px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-picton-blue-34px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-12-6px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 12.560553550720215px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-white-12px-2 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-34px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-34px-2 {
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-16-5px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 16.5px;
+  font-weight: 500;
+  font-style: normal;
+}
+.rubik-light-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-rubik-light);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-normal-white-10-4px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 10.425532341003418px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-light-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-medium-white-34px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-white-34px-2 {
+  font-family: var(--font-family-montserrat);
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-normal-picton-blue-12px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-suva-gray-16-4px {
+  color: var(--suva-gray);
+  font-family: var(--font-family-montserrat);
+  font-size: 16.382980346679688px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+}
+.lato-normal-chicago-16px {
+  color: var(--chicago);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-semi-bold-absolute-zero-36px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-medium-white-16-5px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 16.5px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 51px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-picton-blue-12px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-18px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-light-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-light);
+  font-size: 51px;
+  font-weight: 300;
+  font-style: normal;
+}
+.lato-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-14px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.lato-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-medium-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 56px;
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-regular-normal-white-65px {
+  font-family: var(--font-family-rubik-regular);
+  font-size: 64.9534912109375px;
+  font-weight: 400;
+  font-style: normal;
+}
+.kameron-normal-periwinkle-14px {
+  color: var(--periwinkle);
+  font-family: var(--font-family-kameron);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-regular-normal-black-65px {
+  color: var(--black);
+  font-family: var(--font-family-rubik-regular);
+  font-size: 64.9534912109375px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-picton-blue-18px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-perano-13-4px {
+  color: var(--perano-2);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 13.404255867004395px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xl2);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-light-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-white-64px {
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-normal-black-65px {
+  color: var(--black);
+  font-family: var(--font-family-rubik);
+  font-size: 64.9534912109375px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-absolute-zero-18px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-picton-blue-34px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-absolute-zero-24px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-xl2);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-medium-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.lato-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-suva-gray-16-4px {
+  color: var(--suva-gray);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 16.382980346679688px;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl2);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-light-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-light);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-medium-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-absolute-zero-36px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+}
+.lato-normal-black-10px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-64px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-18px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 51px;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-medium-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-10-4px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 10.425532341003418px;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl2);
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-semi-bold-absolute-zero-24px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl2);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-medium-white-64px {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 56px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-12px {
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-normal-white-65px {
+  font-family: var(--font-family-rubik);
+  font-size: 64.9534912109375px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-light-picton-blue-20px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-montserrat-light);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-regular-normal-absolute-zero-18px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-64px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-white-64px-2 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-13-4px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: 13.404255867004395px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-light-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-light);
+  font-size: 56px;
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-medium-perano-13-4px {
+  color: var(--perano-2);
+  font-family: var(--font-family-montserrat);
+  font-size: 13.404255867004395px;
+  font-weight: 500;
+  font-style: normal;
+}
+.lato-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-light-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 51px;
+  font-weight: 300;
+  font-style: normal;
+}
+.lato-medium-pink-swan-16px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-absolute-zero-14px {
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-medium-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-56px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-light-picton-blue-20px {
   color: var(--picton-blue);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-l);
   font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 23px;
-  min-height: 24px;
-  white-space: nowrap;
+  font-style: normal;
 }
-
-.rapscorp-2022-all-right-reserved {
-  color: transparent;
+.montserrat-medium-white-12-6px {
+  color: var(--white);
   font-family: var(--font-family-montserrat);
-  font-size: 12px;
+  font-size: 12.560553550720215px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 36px;
   font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0.32px;
-  margin-top: 132px;
-  min-height: 15px;
+  font-style: normal;
 }
-
-.span-1 {
-  color: var(--picton-blue);
-}
-
-.span1-4 {
-  color: var(--white);
-}
-
-.address {
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 176px;
-}
-
-.about-us .flex-col-4 {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-col-3 {
-  align-items: flex-start;
-  min-height: 309px;
-  width: 470px;
-}
-
-.overlap-group22 {
-  align-items: center;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6480dc01f84dd3d723bc287a/releases/64819924d9aad34a53ab638d/img/rectangle-74.svg);
-  background-size: 100% 100%;
-  display: flex;
-  gap: 12px;
-  height: 89px;
-  justify-content: flex-end;
-  margin-top: 57px;
-  min-width: 469px;
-  padding: 22.3px 37.2px;
-}
-
-.group-730 {
-  align-items: flex-start;
-  align-self: flex-end;
-  border: 2px solid;
-  border-color: var(--white);
-  border-radius: 22.34px;
-  cursor: pointer;
-  display: flex;
-  height: 45px;
-  min-width: 45px;
-  padding: 13.4px 13.6px;
-}
-
-.vector-15-4 {
-  height: 14px;
-  width: 14px;
-}
-
-.email-address::placeholder {
-  color: #ffffff99;
-}
-
-input:focus {
-  outline: none;
-}
-
-.email-address {
-  background-color: transparent;
-  border: 0;
-  color: var(--white);
+.montserrat-medium-black-20px {
+  color: var(--black);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-l);
   font-weight: 500;
-  height: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-bottom: 1.36px;
-  padding: 0;
-  white-space: nowrap;
-  width: 335px;
+  font-style: normal;
 }
-
-.get-the-latest-information-from-us {
-  color: transparent;
-  font-family: var(--font-family-montserrat);
-  font-size: 34px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 82px;
-}
-
-.component-container-1 {
-  align-items: flex-start;
-  display: flex;
-  gap: 25px;
-  margin-left: 2.98px;
-  margin-top: 51px;
-  min-width: 467px;
-}
-
-.component-1 {
-  align-items: flex-start;
-  display: flex;
-  min-width: 98px;
-}
-
-.overlap-group-6 {
-  align-items: flex-start;
-  border: 0.74px solid;
-  border-color: var(--white);
-  border-radius: 744.68px;
-  display: flex;
-  height: 30px;
-  min-width: 98px;
-  padding: 8.2px 21.1px;
-}
-
-.facebook-2 {
-  min-width: 54px;
-}
-
-.about-us .facebook-4 {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 13px;
-  text-align: center;
-}
-
-.overlap-group-7 {
-  align-items: flex-start;
-  border: 0.74px solid;
-  border-color: var(--white);
-  border-radius: 744.68px;
-  display: flex;
-  height: 30px;
-  min-width: 98px;
-  padding: 8.2px 30.1px;
-}
-
-.facebook-3 {
-  min-width: 37px;
-}
-
-.overlap-group-4 {
-  align-items: flex-start;
-  border: 0.74px solid;
-  border-color: var(--white);
-  border-radius: 744.68px;
-  display: flex;
-  height: 30px;
-  min-width: 98px;
-  padding: 8.2px 23.1px;
-}
-
-.facebook {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 13px;
-  min-width: 51px;
-  text-align: center;
-}
-
-.overlap-group-5 {
-  align-items: flex-start;
-  border: 0.74px solid;
-  border-color: var(--white);
-  border-radius: 744.68px;
-  display: flex;
-  height: 30px;
-  min-width: 98px;
-  padding: 8.2px 25.1px;
-}
-
-.facebook-1 {
-  min-width: 46px;
-}
-
-.group-752 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-bottom: 5.34px;
-  margin-left: 114px;
-  min-height: 303px;
-  width: 143px;
-}
-
-.social-responsibility {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.services {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.quick-links {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 22px;
-}
-
-.events {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.place-1 {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.raps-team {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.blog {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.careers {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.place {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.about-us .about-us-3 {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 17px;
-}
-
-.about-us-2 {
-  margin-left: 0;
-}
-
-.group-731 {
-  align-items: flex-start;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-left: 75px;
-  margin-top: 29.79px;
-  min-height: 84px;
-  width: 122px;
-}
-
-.our-services {
-  min-height: 22px;
-}
-
-.about-us .our {
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.it-services {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-.staffing-services {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: 0;
-  min-height: 17px;
-}
-
-/* Variables */
-
-:root {
-    --black-2: rgba(0, 0, 0, 0.161);
-    --black-22: rgba(0, 0, 0, 0.2);
-    --black: rgba(0, 0, 0, 1);
-    --absolute-zero-2: rgba(3, 87, 194, 0.2);
-    --absolute-zero: rgba(3, 87, 194, 1);
-    --cosmic-cobalt: rgba(46, 63, 142, 1);
-    --picton-blue: rgba(62, 217, 240, 1);
-    --royal-blue: rgba(76, 102, 223, 1);
-    --chicago: rgba(92, 92, 92, 1);
-    --suva-gray: rgba(136, 136, 136, 1);
-    --anakiwa-3: rgba(151, 249, 249, 0.2);
-    --anakiwa-2: rgba(151, 249, 249, 1);
-    --anakiwa: rgba(156, 210, 255, 1);
-    --winter-wizard-2: rgba(159, 209, 254, 0.2);
-    --winter-wizard: rgba(159, 209, 254, 1);
-    --perano: rgba(165, 196, 236, 1);
-    --perano-2: rgba(165, 197, 237, 1);
-    --pink-swan: rgba(183, 183, 183, 1);
-    --periwinkle: rgba(191, 202, 255, 1);
-    --melrose-2: rgba(193, 190, 252, 0.2);
-    --melrose: rgba(193, 190, 252, 1);
-    --mauve-2: rgba(212, 163, 253, 0.2);
-    --mauve: rgba(212, 163, 253, 1);
-    --mabel: rgba(217, 237, 255, 1);
-    --titan-white: rgba(237, 240, 255, 1);
-    --wild-sand: rgba(243, 243, 243, 1);
-    --white-42: rgba(255, 255, 255, 0.102);
-    --white-32: rgba(255, 255, 255, 0.2);
-    --white-22: rgba(255, 255, 255, 0.6);
-    --white: rgba(255, 255, 255, 1);
-  
-    --font-size-xs: 14px;
-    --font-size-s: 16.4px;
-    --font-size-s: 16px;
-    --font-size-m: 18px;
-    --font-size-l: 20px;
-    --font-size-xl: 22px;
-    --font-size-xl: 51px;
-    --font-size-xxl: 56px;
-    --font-size-xxxl: 64px;
-    --font-size-xl2: 24px;
-  
-    --font-family-kameron: "Kameron";
-    --font-family-lato: "Lato";
-    --font-family-maven_pro: "Maven Pro";
-    --font-family-maven_pro-bold: "Maven Pro-Bold";
-    --font-family-maven_pro-regular: "Maven Pro-Regular";
-    --font-family-montserrat: "Montserrat";
-    --font-family-montserrat-bold: "Montserrat-Bold";
-    --font-family-montserrat-light: "Montserrat-Light";
-    --font-family-montserrat-medium: "Montserrat-Medium";
-    --font-family-montserrat-regular: "Montserrat-Regular";
-    --font-family-montserrat-semibold: "Montserrat-SemiBold";
-    --font-family-poppins: "Poppins";
-    --font-family-rubik: "Rubik";
-    --font-family-rubik-light: "Rubik-Light";
-    --font-family-rubik-regular: "Rubik-Regular";
-  }
-  
-  /* Classes */
-  
-  .montserrat-medium-white-64px-2 {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-13-4px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 13.404255867004395px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-white-12px-2 {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-normal-white-12px {
-    font-family: var(--font-family-montserrat);
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-l);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-picton-blue-18px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-light-black-16px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-light);
-    font-size: var(--font-size-s);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-white-51px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-semibold);
-    font-size: 51px;
-    font-weight: 600;
-    font-style: normal;
-  }
-  .lato-normal-white-25px {
-    color: var(--white);
-    font-family: var(--font-family-lato);
-    font-size: 25px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-white-51px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 51px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-picton-blue-34px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat);
-    font-size: 34px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-12-6px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 12.560553550720215px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-normal-white-12px-2 {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-white-18px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-34px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 34px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-34px-2 {
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 34px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-16-5px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 16.5px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .rubik-light-black-18px {
-    color: var(--black);
-    font-family: var(--font-family-rubik-light);
-    font-size: var(--font-size-m);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-normal-white-10-4px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 10.425532341003418px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-white-14px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-light-black-16px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-s);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-medium-white-34px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 34px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .poppins-normal-black-14px {
-    color: var(--black);
-    font-family: var(--font-family-poppins);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-white-34px-2 {
-    font-family: var(--font-family-montserrat);
-    font-size: 34px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 600;
-    font-style: normal;
-  }
-  .montserrat-normal-picton-blue-12px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat);
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-normal-suva-gray-16-4px {
-    color: var(--suva-gray);
-    font-family: var(--font-family-montserrat);
-    font-size: 16.382980346679688px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-black-14px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-normal-black-36px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: 36px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-black-28px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 28px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .lato-normal-chicago-16px {
-    color: var(--chicago);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-s);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-absolute-zero-36px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-semibold);
-    font-size: 36px;
-    font-weight: 600;
-    font-style: normal;
-  }
-  .montserrat-medium-white-16-5px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 16.5px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-51px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 51px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-normal-white-56px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxl);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-picton-blue-12px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-18px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-light-white-51px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-light);
-    font-size: 51px;
-    font-weight: 300;
-    font-style: normal;
-  }
-  .lato-medium-black-14px {
-    color: var(--black);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-xs);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-20px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-14px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xs);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .lato-bold-white-18px {
-    color: var(--white);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-m);
-    font-weight: 700;
-    font-style: normal;
-  }
-  .montserrat-medium-black-64px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-white-56px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-semibold);
-    font-size: 56px;
-    font-weight: 600;
-    font-style: normal;
-  }
-  .rubik-regular-normal-white-65px {
-    font-family: var(--font-family-rubik-regular);
-    font-size: 64.9534912109375px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .kameron-normal-periwinkle-14px {
-    color: var(--periwinkle);
-    font-family: var(--font-family-kameron);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-black-26px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: 26px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-normal-white-14px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-black-18px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .rubik-regular-normal-black-65px {
-    color: var(--black);
-    font-family: var(--font-family-rubik-regular);
-    font-size: 64.9534912109375px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-picton-blue-18px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-m);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-perano-13-4px {
-    color: var(--perano-2);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 13.404255867004395px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-black-26px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 26px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-normal-black-14px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-white-22px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 22px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-black-24px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-xl2);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-normal-black-18px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .rubik-light-black-18px {
-    color: var(--black);
-    font-family: var(--font-family-rubik);
-    font-size: var(--font-size-m);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-white-18px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-white-64px {
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-semibold);
-    font-size: var(--font-size-l);
-    font-weight: 600;
-    font-style: normal;
-  }
-  .rubik-normal-black-65px {
-    color: var(--black);
-    font-family: var(--font-family-rubik);
-    font-size: 64.9534912109375px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-normal-absolute-zero-18px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-picton-blue-34px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: 34px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-absolute-zero-24px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-semibold);
-    font-size: var(--font-size-xl2);
-    font-weight: 600;
-    font-style: normal;
-  }
-  .montserrat-medium-black-64px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-18px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-m);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .lato-normal-white-14px {
-    color: var(--white);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-suva-gray-16-4px {
-    color: var(--suva-gray);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 16.382980346679688px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .lato-bold-white-14px {
-    color: var(--white);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-xs);
-    font-weight: 700;
-    font-style: normal;
-  }
-  .montserrat-normal-black-24px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xl2);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-light-white-56px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxl);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-bold-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 700;
-    font-style: normal;
-  }
-  .montserrat-light-white-20px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-light);
-    font-size: var(--font-size-l);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-light-white-20px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-medium-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-l);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-absolute-zero-36px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: 36px;
-    font-weight: 600;
-    font-style: normal;
-  }
-  .lato-normal-black-10px {
-    color: var(--black);
-    font-family: var(--font-family-lato);
-    font-size: 10px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-64px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-20px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-l);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-18px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-m);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-white-51px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 51px;
-    font-weight: 600;
-    font-style: normal;
-  }
-  .montserrat-medium-white-22px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-xl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-white-10-4px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 10.425532341003418px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .lato-bold-black-24px {
-    color: var(--black);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-xl2);
-    font-weight: 700;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-absolute-zero-24px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xl2);
-    font-weight: 600;
-    font-style: normal;
-  }
-  .montserrat-medium-white-64px {
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-normal-white-18px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-white-56px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 56px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-white-12px {
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .rubik-normal-white-65px {
-    font-family: var(--font-family-rubik);
-    font-size: 64.9534912109375px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-light-picton-blue-20px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat-light);
-    font-size: var(--font-size-l);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-absolute-zero-18px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-64px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-white-64px-2 {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxxl);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-13-4px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat);
-    font-size: 13.404255867004395px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-bold-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-bold);
-    font-size: var(--font-size-l);
-    font-weight: 700;
-    font-style: normal;
-  }
-  .montserrat-light-white-56px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat-light);
-    font-size: 56px;
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-medium-perano-13-4px {
-    color: var(--perano-2);
-    font-family: var(--font-family-montserrat);
-    font-size: 13.404255867004395px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .lato-normal-black-14px {
-    color: var(--black);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-xs);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-normal-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-light-white-51px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 51px;
-    font-weight: 300;
-    font-style: normal;
-  }
-  .lato-medium-pink-swan-16px {
-    color: var(--pink-swan);
-    font-family: var(--font-family-lato);
-    font-size: var(--font-size-s);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-absolute-zero-14px {
-    color: var(--absolute-zero);
-    font-family: var(--font-family-montserrat-medium);
-    font-size: var(--font-size-xs);
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-medium-black-28px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: 28px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-semi-bold-white-56px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxl);
-    font-weight: 600;
-    font-style: normal;
-  }
-  .montserrat-light-picton-blue-20px {
-    color: var(--picton-blue);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 300;
-    font-style: normal;
-  }
-  .montserrat-medium-white-12-6px {
-    color: var(--white);
-    font-family: var(--font-family-montserrat);
-    font-size: 12.560553550720215px;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .montserrat-regular-normal-black-36px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat-regular);
-    font-size: 36px;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .montserrat-medium-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-l);
-    font-weight: 500;
-    font-style: normal;
-  }
-  
