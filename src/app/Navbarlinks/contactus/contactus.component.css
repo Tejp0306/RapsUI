@@ -140,15 +140,28 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   color: var(--black);
 }
 
+.rowimages {
+  display: flex;
+  gap: 20%;
+  height: -11%;
+  height: 99px;
+  width: 78%;
+  margin-top: 36px;
+}
+
+.images{
+  height: 20%;
+}
 .group-807 {
   align-items: center;
-  display: flex;
-  gap: 0.52vw;
-  height: 1.56vw;
-  left: 17.19vw;
-  min-width: 10.36vw;
-
-  top: 43.54vw;
+    display: flex;
+    gap: 0.52vw;
+    height: 1.56vw;
+    left: 3.19vw;
+    min-width: 10.36vw;
+    /* top: 43.54vw; */
+    position: absolute;
+    top: 68%;
 }
 
 .phone-1 {
@@ -174,6 +187,10 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   letter-spacing: 0;
   line-height: 1.35vw;
   white-space: nowrap;
+  font-family: montserrat;
+    font-size: 21px;
+    font-weight: 600;
+
 }
 
 .phone {
@@ -239,7 +256,10 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   margin-top: 0.52vw;
   white-space: nowrap;
 }
-
+.inline{
+  display: inherit;
+    gap: 15px;
+}
 
 .card {
     width: 100%;
