@@ -1,4 +1,8 @@
 
+.col-sm-5 {
+    flex: 0 0 41.666667%;
+    max-width: 43.666667%;
+}
 .group-585 {
   align-items: flex-start;
   display: flex;
@@ -15,15 +19,30 @@ ng-lottie {
 .para1{
   margin-top: 20%;
 }
-
+.carditems{
+  display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .contactus{
   color: var(--white);
   font-family: var(--font-family-montserrat);
-  font-size: 88px;
+  font-size: 82px;
   font-style: normal;
   font-weight: 500;
 }
-
+.button2{
+  border-radius: 53px;
+  height: 10%;
+  width: 5%;
+  background: transparent;
+  transform: rotate(45deg);
+  border: 2px solid white;
+  border-radius: 70%;
+}
+.row2{
+  height: 30%;
+}
 .lets-get-started {
   align-self: center;
   color: var(--absolute-zero);
@@ -36,11 +55,7 @@ ng-lottie {
   min-width: 8.23vw;
   text-align: center;
 }
-button#rotatebutton2 {
-  /* color: blue; */
-  background: blue;
-  transform: rotate(-39deg);
-}
+
 .group-113 {
   align-items: flex-end;
   background-color: var(--absolute-zero);
@@ -170,7 +185,9 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   min-width: 7.5vw;
   white-space: nowrap;
 }
-
+.extra{
+  width: 5%;
+}
 .rectangle {
   height: 1.56vw;
   object-fit: cover;
@@ -184,6 +201,25 @@ ng-lottie[_ngcontent-ng-c2061016972] {
 }
 
 .call-us {
+  letter-spacing: 0;
+  line-height: 1.35vw;
+  white-space: nowrap;
+  font-family: montserrat;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+
+.visit-us{
+  letter-spacing: 0;
+  line-height: 1.35vw;
+  white-space: nowrap;
+  font-family: montserrat;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.chat-to-us{
   letter-spacing: 0;
   line-height: 1.35vw;
   white-space: nowrap;
@@ -260,19 +296,21 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   display: inherit;
     gap: 15px;
 }
-
+.rowfirst {
+  display: flex;
+  margin-top: 10%;
+}
 .card {
     width: 100%;
     box-sizing: border-box;
-    padding: 2em;
+    padding: 4em;
     font-family: Ubuntu;
     border-radius: 25px;
     color: white;
     line-height: 25px;
-    box-shadow: 5px 5px 10px #ccc;
     float: left;
     margin-right: 1em;
-    height: 90%;
+    height: 98%;
     background: linear-gradient(45deg, #24AADB , #27DBB1);
     background-size: 600% 100%;
     animation: gradient 16s linear infinite;
@@ -302,8 +340,8 @@ ng-lottie[_ngcontent-ng-c2061016972] {
     rotate:250deg;
   }
   hr.solid {
-    border-top: 3px solid #bbb;
-  }
+    border-top: 2px solid #efe5e5;
+}
   button {
     text-transform: uppercase;
     width: 51px;
@@ -324,6 +362,7 @@ ng-lottie[_ngcontent-ng-c2061016972] {
     margin-left: -15px;
     height: 100%;
     width: 100%;
+    margin-top: 1%;
   }
 
   @keyframes gradient {
