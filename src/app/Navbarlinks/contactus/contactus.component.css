@@ -1,4 +1,14 @@
-
+button.button2{
+  
+  left: 21%;
+  top: 24%;
+  border-radius: 53px;
+  height: 10%;
+  width: 5%;
+  background: transparent;
+  transform: rotate(45deg);
+  border: 2px solid white;
+}
 .col-sm-5 {
     flex: 0 0 41.666667%;
     max-width: 43.666667%;
@@ -22,7 +32,7 @@ ng-lottie {
 .carditems{
   display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 11px;
 }
 .contactus{
   color: var(--white);
@@ -31,17 +41,11 @@ ng-lottie {
   font-style: normal;
   font-weight: 500;
 }
-.button2{
-  border-radius: 53px;
-  height: 10%;
-  width: 5%;
-  background: transparent;
-  transform: rotate(45deg);
-  border: 2px solid white;
-  border-radius: 70%;
-}
-.row2{
+
+.row2 {
   height: 30%;
+  display: flex;
+  justify-content: center;
 }
 .lets-get-started {
   align-self: center;
@@ -85,7 +89,7 @@ ng-lottie {
 }
 .text-line {
   background-color: transparent;
-  color: #eeeeee;
+  color: black;
   outline: none;
   outline-style: none;
   border-top: none;
@@ -95,6 +99,11 @@ ng-lottie {
   padding: 3px 10px;
   width: 90%;
 }
+
+.text-line:focus{
+  border-bottom: solid black 1px;
+}
+
 .d-flex{
   gap:27px;
 }
@@ -285,6 +294,10 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   min-width: 32.55vw;
   white-space: nowrap;
 }
+.text-line::placeholder{
+  color:black;
+  font-family: var(--font-family-montserrat);
+}
 
 .come-say-hello-at-our-offices {
   letter-spacing: 0;
@@ -295,6 +308,9 @@ ng-lottie[_ngcontent-ng-c2061016972] {
 .inline{
   display: inherit;
     gap: 15px;
+}
+#rot:hover{
+  transform:rotate(45deg);
 }
 .rowfirst {
   display: flex;
@@ -311,9 +327,9 @@ ng-lottie[_ngcontent-ng-c2061016972] {
     float: left;
     margin-right: 1em;
     height: 98%;
-    background: linear-gradient(45deg, #24AADB , #27DBB1);
+    background: linear-gradient(45deg, #24AADB , #7cb5d7,rgb(147, 147, 242));
     background-size: 600% 100%;
-    animation: gradient 16s linear infinite;
+    animation: gradient 5s linear infinite;
     animation-direction: alternate;
 
   }

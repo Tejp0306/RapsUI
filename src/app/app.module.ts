@@ -19,6 +19,7 @@ import { ContentComponent } from './Navbarlinks/content/content.component';
 import { FooterComponent } from './Navbarlinks/footer/footer.component';
 import { ContactusComponent } from './Navbarlinks/contactus/contactus.component';
 import { ServicesComponent } from './Navbarlinks/services/services.component';
+import { ItservicesComponent } from './Navbarlinks/itservices/itservices.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ServicesComponent } from './Navbarlinks/services/services.component';
     ContentComponent,
     FooterComponent,
     ContactusComponent,
-    ServicesComponent
+    ServicesComponent,
+    ItservicesComponent
     
   ],
   imports: [

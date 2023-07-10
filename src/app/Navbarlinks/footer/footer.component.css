@@ -1,13 +1,20 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,600,300,500,400|Rubik:300,400");
+
 #footer{
-  background:blue;
+  background:#0357c2;
   width: 100%;
-  height: 50%;
-  border-radius: 35px;
-  padding:30px 20px;
+  border-radius: 20px;
+  padding:4vw 2vw 2vw;
+  font-family: montserrat;
 }
 .firstcol{
   margin-left:53px;
-  gap:143px;
+  gap:7vw;
+  display: flex;
+  flex-wrap: nowrap;
 }
 #column1{
   width: 70%;
@@ -15,9 +22,6 @@
 .social{
   gap:57px;
 }
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700,600,300,500,400|Rubik:300,400");
 
 * {
   box-sizing: border-box;
@@ -27,13 +31,12 @@
   background-color: transparent;
   height: 20.9vw;
   left: 0vw;
-
   top: 0vw;
-  width: 28%;
+  width: auto;
 }
 
 li {
-  padding: 10px;
+  padding: 0.4vw;
 }
 .bi-arrow-right::before {
   content: "\f138";
@@ -69,38 +72,33 @@ li {
   white-space: nowrap;
   width: auto;
 }
-.raps-consulting-inc-pa5NFWraps-consulting-incmontserrat-light-white-40px {
-  font-size: 33px;
-}
+
 .x1-6094548993-pa5NFWmontserrat-light-white-20px {
   font-size: 33px;;
 }
 .letss-connect-pa5NFW {
   background-color: transparent;
   color: var(--picton-blue);
-  font-family: var(--font-family-montserrat);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  height: auto;
-  left: 0vw;
-  letter-spacing: 0vw;
+  font-family: var(--font-family-montserrat-medium);
+font-size: 1.2vw;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 1.4vw;
+}
+
+.x505-thornall-street-LZ5AZ7 {
+  letter-spacing: 0.0vw;
   line-height: normal;
   mix-blend-mode: normal;
-  
   text-align: left;
-  top: 0vw;
   width: auto;
-}
-.span0-89PdF4 {
-  font-size: 38px;
 }
 
 .salesrapscorpcom-pa5NFW {
   background-color: transparent;
   color: var(--picton-blue);
-  font-family: var(--font-family-montserrat);
-  font-size: 32px;
+  font-family:montserrat;
+  font-size: 1.3vw;
   font-style: normal;
   font-weight: 300;
   height: auto;
@@ -118,7 +116,7 @@ li {
 .rapscorp-2022-all-right-reserved-pa5NFW {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-montserrat);
+  font-family: montserrat;
   font-size: 0.83vw;
   font-style: normal;
   font-weight: 400;
@@ -152,41 +150,77 @@ input {
   border-radius: 64px;
   border: 3px solid white;
   background: transparent;
+  padding: 0 3vw;
+}
+
+input::placeholder{
+    color: #ffffff99;
 }
 .heading1{
-  font-size:52px;
-}
-.heading2{
-  font-size:52px;
+  color: var(--white);
+  font-family: montserrat;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom:3vw;
 }
 .d-flex{
-  gap:57px;
+  gap:2vw;
 }
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  border: 2px solid white;
-  border-radius: 19px;
-  width: 17%;
-  text-align: center;
-  height: 38px;
+.listsocial li{
+background-color: transparent;
+border: 0.05vw solid;
+border-color: var(--white);
+border-radius: 51.71vw;
+width: 6.81vw;
+margin-right: 1.5vw;
+text-align: center;
+}
+
+.listsocial a{
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 10.4px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.list1 h3, .list2 h3{
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1.3vw;
+
+}
+
+.list1 li, .list2 li{
+  color: var(--white);
+font-family: var(--font-family-montserrat-regular);
+font-style: normal;
+font-weight: 400;
+margin:0.2vw 0;
 }
 
 button {
   background: transparent;
-  border-radius: 56%;
-  height: 64px;
-  width: 60px;
-  border: 2px solid white;
-  position: absolute;
-  right: 20px;
-  top: 9px;
+border-radius: 56%;
+height: 4vw;
+width: 4vw;
+border: 2px solid white;
+position: absolute;
+right: 2vw;
+top: 19%;
 }
 /* Variables */
 .inputcontainer {
-  height: 84px;
-position: relative;
+  background-color: transparent;
+    height: 6.18vw;
+    mix-blend-mode: normal;
+    width: 32.57vw;
+    position: relative;
 }
 :root {
   --black-2: rgba(0, 0, 0, 0.161);
@@ -759,14 +793,7 @@ position: relative;
 .montserrat-light-white-20px {
   color: var(--white);
   font-family: var(--font-family-montserrat-light);
-  font-size: var(--font-size-l);
-  font-weight: 300;
-  font-style: normal;
-}
-.montserrat-light-white-20px {
-  color: var(--white);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-l);
+  font-size: 1.4vw;
   font-weight: 300;
   font-style: normal;
 }
