@@ -29,7 +29,59 @@
   input:focus {
     outline: none;
   }
-  
+  .itservices.montserrat-medium-black-38px{
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 38px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    height: auto;
+    left: 60px;
+    letter-spacing: 0px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    width: auto;
+  }
+  .button3.new {
+    position: unset;
+width: 11%;
+height: 10%;
+margin-left: 4%;
+  }
+
+  .lorem-ipsum-dolor-si.montserrat-normal-black-22px{
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl3);
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    height: auto;
+    left: 60px;
+    letter-spacing: 0px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    width: 563px;
+  }
+
+
+  .row.cardox {
+    width: 100%;
+    height: 18%;
+    margin-top: 13%;
+    gap: 2%;
+    justify-content: center;
+  }
+
+
   * {
     box-sizing: border-box;
   }
@@ -128,7 +180,9 @@
     opacity: 14.4;
     text-align: center;
   }
-  
+  #blogcarousel{
+    width: 100%;
+  }
   .rapscorp-landing-2 .navbar-link-events {
     min-width: 48px;
     text-align: center;
@@ -141,7 +195,31 @@
   .rapscorp-landing-2 .navbar-link-blog {
     min-width: 33px;
   }
-  
+
+  .know-more {
+    background-color: transparent;
+    height: auto;
+    left: 60px;
+    letter-spacing: 0px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 73%;
+    width: auto;
+  }
+ 
+  .button3{
+    position: absolute;
+    left: 39%;
+    top: 71%;
+    border-radius: 56%;
+    height: 14%;
+    width: 8%;
+    background: transparent;
+    transform: rotate(-45deg);
+    border: 2px solid black;
+  }
   #hen{
     float: right;
     margin-top: 81px;
@@ -152,9 +230,7 @@
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapse:hover {
-    background-color: #ccc;
-  }
+ 
   
   .spinner {
     position: absolute;
@@ -229,6 +305,20 @@
     transition: .3s;
   }
   
+  .bi.bi-arrow-right.one {
+    border: 2px solid blue;
+    text-align: center;
+    width: 22%;
+    height: 24%;
+    border-radius: 50%;
+    font-size: xxx-large;
+    padding-top: 5%;
+    transform: rotate(45deg) !important;
+    float: right;
+    color: blue;
+  }
+
+
   #im1{
     width:99%;
   }
@@ -236,24 +326,37 @@
   #im2{
     width:110%;
   }
+  .rapscorp-landing-2 .place:hover {
+    color: red;
+  }
   #prev {
     position: absolute;
     top:573px;
-    right: 171px;
+    right: -5%;
     border-radius: 90px;
     width: 59px;
     height: 58px;
     background-color: transparent;
+    border: 2px solid aliceblue;
+    font-size: xx-large;
+    color: white;
   }
+
+  button#prev:hover {
+    color: blue;
+  }
+
   #next{
     position: absolute;
       top:573px;
-      right: 251px;
+      right: 2%;
       border-radius: 90px;
       width: 59px;
       height: 58px;
-      
+      border: 2px solid aliceblue;
       background-color: transparent;
+      font-size: xx-large;
+      color: white;
   }
   
   button#next:hover {
@@ -451,6 +554,7 @@
     line-height: normal;
     position: absolute;
     top: 212px;
+    z-index: 1;
   }
   
   .rapscorp-landing-2 .span1 {
@@ -566,6 +670,7 @@
     min-height: 20px;
     min-width: 92px;
     text-align: center;
+    z-index: 1;
   }
   
   .rapscorp-landing-2 .group-113-1 {
@@ -657,10 +762,12 @@
     top: 530px;
     width: 123px;
   }
-  
+  .secondcar{
+    height: 33%;
+  }
   .rapscorp-landing-2 .overlap-group15 {
     background-size: auto;
-    height: 22%;
+    height: 32%;
     position: relative;
     width: 98%;
     top: 126px;
@@ -1021,7 +1128,7 @@
   
   .rapscorp-landing-2 .overlap-group13 {
     align-self: center;
-    height: 1141px;
+    height: 1682px;
     margin-top: 20px;
     position: relative;
     width: 100%;
@@ -1166,7 +1273,7 @@
     border-color: #a5c4ec;
     border-radius: 74.47px;
     display: flex;
-    height: 56px;
+    height: 51px;
     left: 1554px;
     min-width: 238px;
     padding: 12.1px 37.6px;
@@ -1192,7 +1299,7 @@
     background-color: var(--white);
     border-radius: 74.47px;
    
-    height: 58px;
+    height: 51px;
    
     left: 1266px;
     min-width: 248px;
@@ -1293,11 +1400,39 @@
     min-height: 48px;
     min-width: 303px;
   }
-  
+  .col-md-7.d-flex.flex-column {
+    gap: 4vw;
+  }
+
   .rapscorp-landing-2 .span0 {
     font-weight: 700;
   }
+ .row.part3{
+  margin-top: 2%;
+  width: 100%;
+  height: 30%;
+  background-image: url(/assets/img/rectangle-80.svg);
+  margin-bottom: 2%;
+
+  }
+
+  .card.d-flex.flex-column {
+    height: 92%;
+    background: rgba(156, 210, 255, 1);
+    border-radius: 7%;
+    outline: 0.4vw solid #fff;
+}
+.card {
+  position: relative;
   
+  min-width: 0;
+  word-wrap: break-word;
+ 
+  border: 9px solid rgba(222, 224, 236, 0.25);
+  border-radius: .25rem;
+}
+
+
   .rapscorp-landing-2 .pelvic-rehabilitatio {
     align-self: flex-end;
     letter-spacing: 0;
@@ -1309,15 +1444,15 @@
   .rapscorp-landing-2 .flex-row-4 {
     
     background-image: url(/assets/img/rectangle-80.svg);
-    
+    width: 100%;
     display: flex;
-    gap: 359px;
+    gap: 20%;
     height: auto;
     justify-content: center;
     margin-top: 20px;
-    min-width: 1879px;
-    padding: 43px 57.6px;
-    min-height:688px
+    
+ 
+  
   }
   
   .rapscorp-landing-2 .flex-col-2 {
@@ -1334,13 +1469,13 @@
   .rapscorp-landing-2 .cant-find-the-answe {
     color: #888888;
     font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-s);
+    font-size: 2vw;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
     margin-top: 57px;
     min-height: 40px;
-    width: 349px;
+    
   }
   
   .rapscorp-landing-2 .flex-row-5 {
@@ -1418,7 +1553,7 @@
     border-radius: 22.34px;
     display: flex;
     height: 45px;
-    min-width: 45px;
+    width: 6%;
     padding: 14.1px 14.2px;
   }
   
@@ -2153,7 +2288,10 @@
     font-style: normal;
     font-weight: 400;
   }
-  
+  .row.carousel {
+    width: 100%;
+    height: 33%;
+  }
   .montserrat-light-white-20px {
     color: var(--white);
     font-family: var(--font-family-montserrat);
@@ -2161,13 +2299,42 @@
     font-style: normal;
     font-weight: 300;
   }
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-/* The following line is used to measure usage of this code. You can remove it if you want. */
+  .col-md-7.d-flex.flex-column.second {
+    padding-top: 3vw;
+}
 
 
+.col-md-4.youranswer {
+  justify-content: center;
+  text-align: left;
+  padding-left: 3vw;
+  padding-top: 2vw;
+}
+span.questions{
+  color: var(--absolute-zero);
+  font-family: var(--font-family-montserrat);
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 500;
+}
 .screen a {
   display: contents;
   text-decoration: none;
+}
+span.your{
+  color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 500;
+}
+
+span.answered{
+  color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .container-center-horizontal {
@@ -2203,4 +2370,15 @@ input:focus {
       background-color: red;
     }
     }
-  
+    .row.how-do-our-clients-choose-us {
+      gap: 21%;
+      height: 7%;
+      
+  }
+  .row.how-do-we-deliver{
+    gap: 47%;
+    height: 8%;
+}
+p.how-do-our-clients-choose-us.montserrat-semi-bold-black-20px {
+font-size: 2vw;
+}

@@ -27,11 +27,12 @@
               "src/favicon.ico",
               "src/assets",
               "src/assets/img"
-              
             ],
             "scripts": ["node_modules/jquery/dist/jquery.min.js",
             "node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "webpack:///src/node_modules/lottie-web/build/player/lottie.js"],
+            "node_modules/lottie-web/build/player/lottie.js"
+            
+            ],
             "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css",
                         "src/styles.css",
                         "src/css/globals.css",

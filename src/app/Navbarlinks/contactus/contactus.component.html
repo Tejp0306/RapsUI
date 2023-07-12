@@ -1,14 +1,14 @@
 
-<div class="row1">
+<div class="row main" [ngClass]="{'is-phone-portrait': isPhonePortrait}" >
   <div class="col-sm-5">
-    <div class="card purple">
+    <div class="card purple" [ngClass]="{'is-phone-portrait': isPhonePortrait}">
       <div class="carditems">
       <div class="rowfirst">
-        <div class="col-sm-2">
-          <button routerLink="/content"><i class="bi bi-arrow-left"></i></button>
+        <div class="arrow">
+          <button  class="contactusbutton" routerLink="/content"><i class="bi bi-arrow-left"></i></button>
         </div>
-        <div class="col-sm-9">
-          <h2 class="contactus">Contact Us</h2>
+        <div class="contact">
+          <h2 class="contactus" [ngClass]="{'is-phone-portrait': isPhonePortrait}">Contact Us</h2>
         </div>
       </div>
       <div class="row2">
@@ -109,10 +109,8 @@
     </div>
     </div>
   </div>
-  <div class="extra">
-
-  </div>
-  <div class="col-xl-6">
+ 
+  <div class="col-sm-6">
     <div class="d-flex flex-column">
     <div class="row anim">
         <ng-lottie [options]="contactus" ></ng-lottie>

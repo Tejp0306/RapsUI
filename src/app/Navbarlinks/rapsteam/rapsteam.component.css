@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,600,300,500,400|Rubik:300,400");
+
+.raps-team {
+    width: 90% !important;
+    margin: auto;
+    font-family: Montserrat !important;
+}
+
+.raps-team .founders {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5vw;
+    margin: 2vw 0;
+}
+
+.raps-team .founders .founder-title {
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    line-height: 1;
+    margin: 1vw 0;
+}
+
+.raps-team .founders .founder-title span {
+    font-size: 2.3vw;
+    font-weight: 300;
+    font-style: normal;
+    color: #2b1493;
+}
+
+.padding-center {
+    padding: 8vw 0;
+}
+
+
+.raps-team img {
+    width: 100%;
+    height: auto;
+}
+
+.raps-team .founders .founder-body .founder-description {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-radius: 18px;
+    margin-top: 0.8vw;
+}
+
+.raps-team .founders .founder-body .founder-description:hover {
+    
+    outline:0.3vw solid #A1CAFF;
+    box-shadow: 0px 48px 64px #b387eb4a;
+    transition: box-shadow 1.5s ease-in-out;
+}
+
+.raps-team .founders .founder-body .founder-description .founder-description-title {
+    padding: 1.2vw;
+}
+
+.raps-team .founders .founder-body .founder-description .founder-description-title-name {
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: #000;
+    display: block ruby;
+}
+
+.raps-team .founders .founder-body .founder-description .founder-description-title-designation {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #7a39ca;
+}
+
+.raps-team .arrew-down-next {
+    border: 0.1vw solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+  border-color: #0157c5;
+  border-radius: 2.59vw;
+  height: 5.14vw;
+  width: 5.14vw;
+  font-size: 5vw;
+  color: #0157c5;
+  text-align: center;
+  font-family: Cascadia code;
+  font-weight: lighter;
+  margin-top: 9%;
+}
+
+.raps-team .founder-arrew {
+    margin: 1.2vw;
+    transform: rotate(-40deg);
+
+}
+
+.raps-team .teams-arrew {
+    transform: rotate(40deg);
+    margin: 1vw 6vw;
+}
+
+.raps-team .raps-team-title {
+    color: #000;
+    font-size: 3vw;
+    font-weight: 500;
+    font-style: normal;
+    margin-top:4vw;
+}
+
+.raps-team .emp-profile {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4.5vw;
+}
+
+.raps-team .emp-profile .emp-img {
+    width: 60%;
+    margin: auto;
+}
+
+.emp-profile-body .emp-designation {
+    padding: 1.3vw;
+    outline: 0.3vw solid #A1CAFF;
+    box-shadow: 0px 48px 64px #b387eb4a;
+    border-radius: 18px;
+    margin-top: 1.7vw;
+    word-wrap: anywhere;
+    height:7vw;
+}
+
+.emp-profile-body .emp-designation .emp-description-title-name {
+    color: #000;
+    font-size: 1.7vw;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.emp-profile-body .emp-designation .emp-description-title-designation {
+    color: #2b1493;
+    font-size: 1vw;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+}
+.container-fluid.raps-team {
+    margin-bottom: 2%;
+  }
+

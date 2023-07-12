@@ -106,7 +106,6 @@ margin-bottom: 1.4vw;
   letter-spacing: 0vw;
   line-height: normal;
   mix-blend-mode: normal;
- 
   text-align: left;
   top: 9.03vw;
   white-space: nowrap;
@@ -140,7 +139,7 @@ margin-bottom: 1.4vw;
 }
 
 .span1-89PdF4 {
-  color: var(--white);
+  color: #fff;
   font-style: normal;
 }
 
@@ -170,7 +169,7 @@ input::placeholder{
 .listsocial li{
 background-color: transparent;
 border: 0.05vw solid;
-border-color: var(--white);
+border-color: #fff;
 border-radius: 51.71vw;
 width: 6.81vw;
 margin-right: 1.5vw;
@@ -178,17 +177,22 @@ text-align: center;
 }
 
 .listsocial a{
-  color: var(--white);
-  font-family: var(--font-family-montserrat-regular);
-  font-size: 10.4px;
+  color:#fff;
+  font-family: montserrat;
+  font-size: 0.8vw;
   font-style: normal;
   font-weight: 400;
+
+}
+.listsocial li:hover, .listsocial a:hover{
+  background: #ced3ca;
+  text-decoration: none;
+  font-weight: 600;
 
 }
 
 .list1 h3, .list2 h3{
   color: var(--white);
-  font-family: var(--font-family-montserrat-medium);
   font-size: 1.2vw;
   font-style: normal;
   font-weight: 500;
@@ -197,11 +201,11 @@ text-align: center;
 }
 
 .list1 li, .list2 li{
-  color: var(--white);
-font-family: var(--font-family-montserrat-regular);
-font-style: normal;
-font-weight: 400;
-margin:0.2vw 0;
+  color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0.2vw 0;
+    font-size: 0.9vw;
 }
 
 button {

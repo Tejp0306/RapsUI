@@ -6,6 +6,7 @@ import { ContentComponent } from './Navbarlinks/content/content.component';
 import { FooterComponent } from './Navbarlinks/footer/footer.component';
 import { ContactusComponent } from './Navbarlinks/contactus/contactus.component';
 import { ServicesComponent } from './Navbarlinks/services/services.component';
+import { RapsteamComponent } from './Navbarlinks/rapsteam/rapsteam.component';
  
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path:'services',
     component:ServicesComponent
+  },
+  {
+    path:'rapsteam',
+    component:RapsteamComponent
   }
 ];
 

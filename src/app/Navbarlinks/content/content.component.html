@@ -6,7 +6,7 @@
     action="form1"
     method="post"
   >
-    <div class=".container-fluid">
+    <div class="row carousel">
       <div id="blogCarousel" class="carousel" data-ride="carousel">
         <!-- Carousel items -->
         <div class="carousel-inner">
@@ -48,7 +48,7 @@
                 <video
                   width="320"
                   height="240"
-                  poster="assets/img/image361.png"
+                  poster="assets/img/image-361.png"
                   controls
                 >
                   <source
@@ -73,10 +73,10 @@
           </div>
 
           <!--.item-->
-
+<!-- 
           <div class="carousel-item">
-            <div class="row">
-              <div id="jh" class="col-md-12">
+            <div class="row secondcar">
+              <div id="jh" class="col-md-12 secondcar">
                 <a href="#">
                   <img
                     src="assets/img/DSC_8400.JPG"
@@ -87,12 +87,13 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <!--.carousel-inner-->
       </div>
-      <!--.Carousel-->
     </div>
+      <!--.Carousel-->
+
 
     <div class="overlap-group15">
       <div class="component-132-1">
@@ -125,68 +126,63 @@
         features of existing staff and help you make an informed decision
       </p>
     </div>
-    <div class="flex-row">
-      <div class="flex-col-1 flex-col-3">
-        <div class="group-110">
-          <img
-            class="vector-15-5"
-            src="assets/img/vector-15-11.svg"
-            alt="Vector 15"
-          />
-        </div>
-        <div class="services-we-offer montserrat-medium-white-64px">
-          <span class="montserrat-medium-absolute-zero-64px"
-            >Services,<br /></span
-          ><span class="montserrat-medium-black-64px">We Offer</span>
-        </div>
-      </div>
-      <div class="group-726">
-        <div class="overlap-group7">
-          <div class="it-services">IT Services</div>
-          <p class="lorem-ipsum-dolor-si montserrat-normal-black-18px">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <div class="flex-row-1">
-            <div class="know-mor">Know more</div>
-            <div class="group-113">
-              <img
-                class="vector-15"
-                src="assets/img/vector-15-13.svg"
-                alt="Vector 15"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="group-container">
-        <div class="overlap-group8">
-          <div class="staffing-services">Staffing Services</div>
-          <p
-            class="lorem-ipsum-dolor-si-1 lorem-ipsum-dolor-si-3 montserrat-normal-black-18px"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <div class="flex-row-2">
-            <div class="know-more">Know more</div>
-            <div class="group-113">
-              <img
-                class="vector-15"
-                src="assets/img/vector-15-13.svg"
-                alt="Vector 15"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <ng-lottie
-      [options]="testimonial"
-      class="testimonia"
-      width="400px"
-    ></ng-lottie>
-    <div class="overlap-group13">
+  <div class="row cardox">
+<div class="col-md-3">
+  <div class="bi bi-arrow-right one">
+    
+  </div>
+  <div class="services-we-offer montserrat-medium-white-64px">
+    <span class="montserrat-medium-absolute-zero-64px"
+      >Services,<br /></span
+    ><span class="montserrat-medium-black-64px">We Offer</span>
+  </div>
+</div>
+<div class="col-md-4">
+<div class="card d-flex flex-column">
+  <div class="itservices montserrat-medium-black-38px">IT Services</div>
+  <p class="lorem-ipsum-dolor-si montserrat-normal-black-22px">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <div class="know-more montserrat-medium-black-26px">Know more</div>
+      <button class="button3" style="font-size: 40px">
+        <i class="bi bi-arrow-right" style="color: black"></i>
+      </button>
+      <img
+        src="assets/ServicesIcons/ITServices.png"
+        style="height: 26%;width: 15%;position: absolute;left: 76%;top: 59%;"
+      />
+</div>
+</div>
+<div class="col-md-4">
+  <div class="card d-flex flex-column">
+    <div class="itservices montserrat-medium-black-38px">Staffing Services</div>
+    <p class="lorem-ipsum-dolor-si montserrat-normal-black-22px">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <div class="know-more montserrat-medium-black-26px">Know more</div>
+        <button class="button3" style="font-size: 40px">
+          <i class="bi bi-arrow-right" style="color: black"></i>
+        </button>
+        <img
+          src="assets/ServicesIcons/StaffingServices.png"
+          style="height: 26%;width: 15%;position: absolute;left: 76%;top: 59%;"
+        />
+  </div>
+  </div>
+  </div>
+<!-- <div class="row blue">
+<div >
+
+</div>
+</div> -->
+    <div class="overlap-group13" [ngClass]="{ 'is-phone-portrait': isPhonePortrait }">
+      <ng-lottie
+        [options]="testimonial"
+        class="testimonia"
+        width="400px"
+      ></ng-lottie>
       <img class="image" src="assets/img/-.svg" alt="image" />
       <img
         class="shadow-testimonials"
@@ -237,7 +233,7 @@
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
           >
-            <span class="fas fa-angle-right"></span>
+            <span class="fa fa-angle-right"></span>
           </button>
 
           <button
@@ -246,80 +242,46 @@
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
           >
-            <span class="fas fa-angle-left"></span>
+            <span class="fa fa-angle-left"></span>
           </button>
         </div>
       </div>
     </div>
-
-    <div id="set_height">
-      <div class="flex-row-4">
-        <div class="flex-col-2 flex-col-3">
-          <div class="your-questions-answered montserrat-medium-white-64px">
-            <span class="montserrat-medium-black-64px">Your<br /></span
-            ><span class="montserrat-medium-absolute-zero-64px"
-              >Questions,<br /></span
-            ><span class="montserrat-medium-black-64px">Answered</span>
-          </div>
-          <p class="cant-find-the-answe">
-            Can’t find the answer you’re looking for?<br />Please chat to our
-            friendly team.
-          </p>
-          <div class="flex-row-5">
-            <a href="#" class="get-in-touch">GET IN TOUCH</a>
-            <div class="group-730">
-              <img
-                class="vector-15-1"
-                src="assets/img/vector-15-19.svg"
-                alt="Vector 15"
-              />
-            </div>
-          </div>
+    <div class="row part3" [ngClass]="{ 'is-phone-portrait': isPhonePortrait }">
+      <div class="col-md-4 youranswer">
+        <div class="your-questions-answered montserrat-medium-white-64px">
+          <span class="your">Your<br /></span
+          ><span class="questions"
+            >Questions,<br /></span
+          ><span class="answered">Answered</span>
         </div>
-        <div class="group-container-1">
-          <div class="group-692">
+        <p class="cant-find-the-answe">
+          Can’t find the answer you’re looking for?<br />Please chat to our
+          friendly team.
+        </p>
+        <a href="#" class="get-in-touch">GET IN TOUCH</a>
+        <button class="button3 new" style="font-size: 40px">
+          <i class="bi bi-arrow-right" style="color: black"></i>
+        </button>
+      </div>
+<div class="col-md-1"></div>
+      <div class="col-md-7 d-flex flex-column second">
+        <div class="row how-do-our-clients-choose-us">
+          <div class="col-md-7">
             <p
               class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
             >
               How do our clients choose us
             </p>
-            <div class="group-691">
-              <a
-                href="#collapseIndicatorChevron"
-                class="btn visible-xs"
-                id="toggle-btn"
-                type="button"
-                data-bs-toggle="collapse"
-                data-target="#toggle-example"
-              >
-                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-                <img
-                  class="bottom"
-                  id="bottom"
-                  src="assets/ExpandCollapse/Expand.png"
-                />
-              </a>
-            </div>
           </div>
-
-          <span id="toggle-example" class="collapse in">
-            A Computer Science portal for geeks. It contains well written, well
-            thought and well explained computer science and programming
-            articles, quizzes and ...
-          </span>
-
-          <div class="group-693">
-            <div class="how-do-we-deliver montserrat-semi-bold-black-20px">
-              How do we deliver
-            </div>
-
+          <div class="col-md-2">
             <a
               href="#collapseIndicatorChevron"
               class="btn visible-xs"
-              id="toggle-bt1"
+              id="toggle-btn"
               type="button"
               data-bs-toggle="collapse"
-              data-target="#toggle-exampl"
+              data-target="#toggle-example"
             >
               <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
               <img
@@ -329,70 +291,110 @@
               />
             </a>
           </div>
-          <div id="toggle-exampl" class="collapse 1">
-            hello guys we are raps
-          </div>
-          <div class="group-694">
+        </div>
+        <span id="toggle-example" class="collapse in">
+          A Computer Science portal for geeks. It contains well written, well
+          thought and well explained computer science and programming articles,
+          quizzes and ...
+        </span>
+        <div class="row how-do-our-clients-choose-us">
+          <div class="col-md-7">
             <p
-              class="how-do-we-check-our-products montserrat-semi-bold-black-20px"
+              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
+            >
+              How do we deliver
+            </p>
+          </div>
+          <div class="col-md-2">
+            <a
+              href="#collapseIndicatorChevron"
+              class="btn visible-xs"
+              id="toggle-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-target="#toggle-example"
+            >
+              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+              <img
+                class="bottom"
+                id="bottom"
+                src="assets/ExpandCollapse/Expand.png"
+              />
+            </a>
+          </div>
+        </div>
+        <span id="toggle-example" class="collapse in">
+          A Computer Science portal for geeks. It contains well written, well
+          thought and well explained computer science and programming articles,
+          quizzes and ...
+        </span>
+        <div class="row how-do-our-clients-choose-us">
+          <div class="col-md-7">
+            <p
+              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
             >
               How do we check our products
             </p>
-            <div class="group-12">
-              <a
-                href="#collapseIndicatorChevron"
-                class="btn visible-xs"
-                id="toggle-bt2"
-                type="button"
-                data-bs-toggle="collapse"
-                data-target="#toggle-examp"
-              >
-                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-                <img
-                  class="bottom"
-                  id="bottom"
-                  src="assets/ExpandCollapse/Expand.png"
-                />
-              </a>
-            </div>
           </div>
-          <div id="toggle-examp" class="collapse in">
-            A Computer Science portal for geeks. It contains well written, well
-            thought and well explained computer science and programming
-            articles, quizzes and ...
+          <div class="col-md-2">
+            <a
+              href="#collapseIndicatorChevron"
+              class="btn visible-xs"
+              id="toggle-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-target="#toggle-example"
+            >
+              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+              <img
+                class="bottom"
+                id="bottom"
+                src="assets/ExpandCollapse/Expand.png"
+              />
+            </a>
           </div>
-          <div class="group-695">
+        </div>
+        <span id="toggle-example" class="collapse in">
+          A Computer Science portal for geeks. It contains well written, well
+          thought and well explained computer science and programming articles,
+          quizzes and ...
+        </span>
+
+        <div class="row how-do-our-clients-choose-us">
+          <div class="col-md-7">
             <p
-              class="what-is-our-recruitment-process montserrat-semi-bold-black-20px"
+              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
             >
               What is our recruitment process
             </p>
-            <div class="group-129">
-              <a
-                href="#collapseIndicatorChevron"
-                class="btn visible-xs"
-                id="toggle-bt3"
-                type="button"
-                data-bs-toggle="collapse"
-                data-target="#toggle-exam"
-              >
-                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-                <img
-                  class="bottom"
-                  id="bottom"
-                  src="assets/ExpandCollapse/Expand.png"
-                />
-              </a>
-            </div>
           </div>
-          <div id="toggle-exam" class="collapse in">
-            A Computer Science portal for geeks. It contains well written, well
-            thought and well explained computer science and programming
-            articles, quizzes and ...
+          <div class="col-md-2">
+            <a
+              href="#collapseIndicatorChevron"
+              class="btn visible-xs"
+              id="toggle-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-target="#toggle-example"
+            >
+              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+              <img
+                class="bottom"
+                id="bottom"
+                src="assets/ExpandCollapse/Expand.png"
+              />
+            </a>
           </div>
         </div>
+        <span id="toggle-example" class="collapse in">
+          A Computer Science portal for geeks. It contains well written, well
+          thought and well explained computer science and programming articles,
+          quizzes and ...
+        </span>
       </div>
     </div>
+
+   
   </form>
 </div>
 <app-footer></app-footer>
