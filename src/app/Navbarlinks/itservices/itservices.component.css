@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,600,300,500,400|Rubik:300,400");
+
+
+.service-overview{
+    margin: auto;
+    font-family:Montserrat ;
+}
+.service-overview img{
+    height: auto;
+    width: 100%;
+}
+
+.service-overview .raps-services{
+  padding: 5vw;
+  background-image: linear-gradient(to bottom right, #B0D8F114,#B0D8F18C, #6B9EE0);
+}
+
+.service-overview .services{
+  background-color: #f9f9f9;
+  margin: 1vw;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 5vw;
+  gap:5vw;
+  padding-left: 8vw;
+}
+.service-overview .services-right{
+  background-color: #f9f9f9;
+  margin: 1vw;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 5vw;
+  padding-left: 8vw;
+}
+
+.service-overview .services .services-details{
+  /* margin-left: 5vw; */
+}
+.service-overview .services-right .services-details{
+  margin-right: 5vw;
+}
+
+.service-overview .services .services-details-title{
+  font-size: 3vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2.5;
+  border-bottom: 0.26vw solid #0357c2;
+}
+.service-overview .services-right .services-details-title{
+  font-size: 3vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2.5;
+  border-bottom: 0.26vw solid #0357c2;
+  text-align: right;
+}
+.service-overview .raps-services .services-details-title{
+  font-size: 3vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  border-bottom: 0.26vw solid #0357c2;
+  text-align: left;
+  width: 50%;
+}
+.service-overview .services .services-details-text{
+  font-size: 1.4vw;
+  font-weight: 400;
+  font-style: normal;
+  width: 95%;
+  margin-top:2vw;
+  color:#868686;
+}
+.service-overview .services-right .services-details-text{
+  font-size: 1.4vw;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  margin-top:2vw;
+  color:#868686;
+  text-align: right;
+}
+.service-overview .raps-services .services-details-text{
+  font-size: 1.7vw;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  margin-top:2vw;
+  color:#000;
+  text-align: left;
+  line-height:1.5;
+}
+
+
+.service-overview .services .service-img{
+ width: 74%;
+ height: fit-content;
+ margin-top:8vw;
+}
+.service-overview .raps-services .service-img{
+ width: 74%;
+ height: fit-content;
+ margin-top:8vw;
+}

@@ -1,5 +1,6 @@
 import { Component,OnInit } from '@angular/core';
 import { AnimationOptions ,} from "ngx-lottie";
+import { distinctUntilChanged, tap } from 'rxjs/operators';
 // app.component.ts
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
@@ -26,14 +27,14 @@ export class ContactusComponent implements OnInit {
 
       this.isPhonePortrait = false; 
       if (result.breakpoints[Breakpoints.XSmall]) {
-       // handle XSmall breakpoint
-      }
-      if (result.breakpoints[Breakpoints.Small]) {
         this.isPhonePortrait = true;
         console.log("small");
       }
+      if (result.breakpoints[Breakpoints.Small]) {
+       
+      }
       if (result.breakpoints[Breakpoints.Medium]) {
-      // handle Medium breakpoint
+        
       }
       if (result.breakpoints[Breakpoints.Large]) {
         // handle Large breakpoint

@@ -1,400 +1,371 @@
 <app-header></app-header>
-<div class="container-center-horizontal">
-  <form
-    class="rapscorp-landing-2 screen"
-    name="form1"
-    action="form1"
-    method="post"
-  >
-    <div class="row carousel">
-      <div id="blogCarousel" class="carousel" data-ride="carousel">
-        <!-- Carousel items -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="container">
-                <a href="">
-                  <div class="group-113-2">
-                    <img
-                      class="vector-15-4"
-                      href="#"
-                      src="assets/img/vector-15-10.svg"
-                      alt="Vector 15"
-                    />
-                  </div>
 
-                  <p class="focused-on-creating montserrat-light-white-56px">
-                    <span class="montserrat-light-white-56px">Focused on</span
-                    ><span class="span1">&nbsp;</span
-                    ><span class="span2"
-                      >creating<br />the best experience<br /></span
-                    ><span class="montserrat-light-white-56px"
-                      >for our clients</span
-                    >
-                  </p>
-
-                  <div class="read-more-1">Read more</div>
-                  <img
-                    src="assets/img/image-36.png"
-                    id="kt"
-                    alt="Image"
-                    style="max-width: 155%; height: 100%"
-                  />
-                </a>
-
-                <!-- <a href="#">
-                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                         </a> -->
-                <video
-                  width="320"
-                  height="240"
-                  poster="assets/img/image-361.png"
-                  controls
-                >
-                  <source
-                    src="assets/istockphoto-1462196596-640_adpp_is.mp4"
-                    type="video/mp4"
-                  />
-                  <source
-                    src="assets/istockphoto-1462196596-640_adpp_is.mp4"
-                    type="video/ogg"
-                  />
-                  Your browser does not support the video tag.
-                </video>
+<div class="container-fluid">
+  <div class="row medial" [ngClass]="{ 'is-phone-portrait': isPhonePortrait }">
+    <div class="col-md-12 carousel">
+      <ng-lottie [options]="spinner" class="spinner" width="30vw"></ng-lottie>
+      <ngb-carousel class="no-indicators">
+        <ng-template ngbSlide>
+          <div class="grids carouselr">
+            <div class="gridchild gradient">
+              <div>
+                <p class="focused-on-creating">
+                  Focussed on
+                  <span class="creating">creating the best experience</span>for
+                  our clients
+                </p>
               </div>
+              <div>
+                <a href="#" class="read-more">Read more</a>
+                <div class="rounded-circle small first">&#8599;</div>
+              </div>
+              <!-- <img
+                class="carouselslideimage"
+                src="assets/img/DSC_8399.JPG"
+                alt="Angular Carousel 1"
+              /> -->
             </div>
-            <ng-lottie
-              class="spinner"
-              width="400px"
-              [options]="spinner"
-            ></ng-lottie>
-
-            <!--.row-->
+            <div class="gridchild">
+              <video width="320" height="240" controls>
+                <source
+                  src="assets/_import_61a606189f7fc4.39038832_preview.mp4"
+                  type="video/mp4"
+                />
+                <source src="movie.ogg" type="video/ogg" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
-
-          <!--.item-->
-<!-- 
-          <div class="carousel-item">
-            <div class="row secondcar">
-              <div id="jh" class="col-md-12 secondcar">
-                <a href="#">
-                  <img
-                    src="assets/img/DSC_8400.JPG"
-                    id="kl"
-                    alt="Image"
-                    style="max-width: 100%; height: auto"
-                  />
-                </a>
-              </div>
-            </div>
+          <!-- <div class="carousel-caption">
+            <h3>Title Goes Here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div> -->
-        </div>
-        <!--.carousel-inner-->
-      </div>
+        </ng-template>
+        <!-- <ng-template ngbSlide>
+          <div class="carouselr">
+           
+            <img  class="carouselslideimage image2" src="assets/img/DSC_8400.JPG" alt="Angular Carousel 2">
+       
+          </div>
+          <div class="carousel-caption">
+            <h3>Title Goes Here</h3>
+            <p>Consectetur tortor volutpat pretium.</p>
+          </div>
+        </ng-template> -->
+      </ngb-carousel>
     </div>
-      <!--.Carousel-->
-
-
-    <div class="overlap-group15">
-      <div class="component-132-1">
-        <img
-          class="mask-group-1"
-          src="assets/img/mask-group-2.png"
-          alt="Mask group"
-        />
-      </div>
-
-      <ng-lottie class="star" width="500px" [options]="options"></ng-lottie>
-      <!-- <div class="rectangle-409"></div>
-            <div class="rectangle-412"></div>
-            <div class="rectangle-413"></div>
-            <div class="rectangle-41"></div>
-            <div class="rectangle-41"></div> -->
-
-      <h1 class="title">About Us</h1>
-      <p class="we-are-among-the-bes">
-        We are among the best staffing and recruiting companies. Our staffing
-        and recruitment section helps you with marketing and analytics to locate
-        people that have a strong cultural fit. This not only increases the
-        likelihood of taking positions with the appropriate people for the firm,
-        but it also increases production and efficiency for your enterprises.
-        Furthermore, our marketing analytics can help you uncover strong
-        applicants even before they become job seekers by merging the natural
-        language processing technology with trends across numerous platforms.
-        Our staffing and recruitment division provides in-depth marketing data
-        that allows you to identify the tangible and intangible successful
-        features of existing staff and help you make an informed decision
-      </p>
-    </div>
-  <div class="row cardox">
-<div class="col-md-3">
-  <div class="bi bi-arrow-right one">
-    
-  </div>
-  <div class="services-we-offer montserrat-medium-white-64px">
-    <span class="montserrat-medium-absolute-zero-64px"
-      >Services,<br /></span
-    ><span class="montserrat-medium-black-64px">We Offer</span>
-  </div>
-</div>
-<div class="col-md-4">
-<div class="card d-flex flex-column">
-  <div class="itservices montserrat-medium-black-38px">IT Services</div>
-  <p class="lorem-ipsum-dolor-si montserrat-normal-black-22px">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  </p>
-  <div class="know-more montserrat-medium-black-26px">Know more</div>
-      <button class="button3" style="font-size: 40px">
-        <i class="bi bi-arrow-right" style="color: black"></i>
-      </button>
-      <img
-        src="assets/ServicesIcons/ITServices.png"
-        style="height: 26%;width: 15%;position: absolute;left: 76%;top: 59%;"
-      />
-</div>
-</div>
-<div class="col-md-4">
-  <div class="card d-flex flex-column">
-    <div class="itservices montserrat-medium-black-38px">Staffing Services</div>
-    <p class="lorem-ipsum-dolor-si montserrat-normal-black-22px">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    </p>
-    <div class="know-more montserrat-medium-black-26px">Know more</div>
-        <button class="button3" style="font-size: 40px">
-          <i class="bi bi-arrow-right" style="color: black"></i>
-        </button>
-        <img
-          src="assets/ServicesIcons/StaffingServices.png"
-          style="height: 26%;width: 15%;position: absolute;left: 76%;top: 59%;"
-        />
-  </div>
-  </div>
-  </div>
-<!-- <div class="row blue">
-<div >
-
-</div>
-</div> -->
-    <div class="overlap-group13" [ngClass]="{ 'is-phone-portrait': isPhonePortrait }">
-      <ng-lottie
-        [options]="testimonial"
-        class="testimonia"
-        width="400px"
-      ></ng-lottie>
-      <img class="image" src="assets/img/-.svg" alt="image" />
-      <img
-        class="shadow-testimonials"
-        src="assets/img/shadow---testimonials.svg"
-        alt="Shadow - Testimonials"
-      />
-      <p class="what-our-clients-e montserrat-medium-white-64px">
-        <span class="montserrat-medium-black-64px">What Our<br /></span
-        ><span class="montserrat-medium-absolute-zero-64px">Clients</span
-        ><span class="montserrat-medium-black-64px"> &amp; </span
-        ><span class="montserrat-medium-absolute-zero-64px"
-          >Employees<br /></span
-        ><span class="montserrat-medium-black-64px">Say About Us</span>
-      </p>
-
-      <div class="overlap-group10">
-        <div class="what-employees-say">what Employees say</div>
-      </div>
-      <div class="overlap-group11">
-        <div class="what-clients-say">what clients say</div>
-      </div>
-      <div class="component-48">
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <!-- <div class="carousel-indicators">
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-           </div> -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="assets/TestimonialDummy.png"
-                class="d-block w-100"
-                alt="..."
-              />
+    <div class="col-sm-12 abtus">
+      <div class="card aboutus">
+        <ng-lottie [options]="options" class="star" width="26vw"></ng-lottie>
+        <div class="row">
+          <div class="col-md-12 d-flex flex-column abotus" style="gap: 3vw">
+            <div class="about montserrat-semi-bold-white-22px">About Us</div>
+            <div>
+              <p class="montserrat aboutuscontent">
+                Being recognized as one of the leading healthcare staffing
+                companies, Rapscorp is highly dedicated towards delivering
+                optimal service quality. We believe that our new and agile
+                approaches towards employee recruitments provide the best
+                experience to all our clients. Whether it is to form a skilled
+                in-house team or collaborate with other third-party companies,
+                we take full responsibility for streamlining the staffing
+                process. Our AI and NLP based software scans all the applicants
+                and their information across numerous platforms to produce
+                in-depth marketing data analytics. It makes the hiring process
+                much easier as the software automatically selects the best fits
+                for our clients. Furthermore, we also pose ourselves as a web
+                application development company, offering cutting-edge IT
+                solutions.
+              </p>
             </div>
-            <div class="carousel-item">
-              <img
-                src="assets/TestimonialDummy.png"
-                class="d-block w-100"
-                alt="..."
-              />
+
+            <div class="d-flex knwmore">
+              <div class="montserrat-normal-white-18px">Know more about us</div>
+              <div class="rounded-circle small text-light">&#8599;</div>
             </div>
           </div>
-          <button
-            type="submit"
-            id="prev"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="fa fa-angle-right"></span>
-          </button>
-
-          <button
-            type="submit"
-            id="next"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="fa fa-angle-left"></span>
-          </button>
         </div>
       </div>
     </div>
-    <div class="row part3" [ngClass]="{ 'is-phone-portrait': isPhonePortrait }">
-      <div class="col-md-4 youranswer">
-        <div class="your-questions-answered montserrat-medium-white-64px">
-          <span class="your">Your<br /></span
-          ><span class="questions"
-            >Questions,<br /></span
-          ><span class="answered">Answered</span>
-        </div>
-        <p class="cant-find-the-answe">
-          Can’t find the answer you’re looking for?<br />Please chat to our
-          friendly team.
-        </p>
-        <a href="#" class="get-in-touch">GET IN TOUCH</a>
-        <button class="button3 new" style="font-size: 40px">
-          <i class="bi bi-arrow-right" style="color: black"></i>
-        </button>
-      </div>
-<div class="col-md-1"></div>
-      <div class="col-md-7 d-flex flex-column second">
-        <div class="row how-do-our-clients-choose-us">
-          <div class="col-md-7">
-            <p
-              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
-            >
-              How do our clients choose us
-            </p>
-          </div>
-          <div class="col-md-2">
-            <a
-              href="#collapseIndicatorChevron"
-              class="btn visible-xs"
-              id="toggle-btn"
-              type="button"
-              data-bs-toggle="collapse"
-              data-target="#toggle-example"
-            >
-              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-              <img
-                class="bottom"
-                id="bottom"
-                src="assets/ExpandCollapse/Expand.png"
-              />
-            </a>
-          </div>
-        </div>
-        <span id="toggle-example" class="collapse in">
-          A Computer Science portal for geeks. It contains well written, well
-          thought and well explained computer science and programming articles,
-          quizzes and ...
-        </span>
-        <div class="row how-do-our-clients-choose-us">
-          <div class="col-md-7">
-            <p
-              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
-            >
-              How do we deliver
-            </p>
-          </div>
-          <div class="col-md-2">
-            <a
-              href="#collapseIndicatorChevron"
-              class="btn visible-xs"
-              id="toggle-btn"
-              type="button"
-              data-bs-toggle="collapse"
-              data-target="#toggle-example"
-            >
-              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-              <img
-                class="bottom"
-                id="bottom"
-                src="assets/ExpandCollapse/Expand.png"
-              />
-            </a>
-          </div>
-        </div>
-        <span id="toggle-example" class="collapse in">
-          A Computer Science portal for geeks. It contains well written, well
-          thought and well explained computer science and programming articles,
-          quizzes and ...
-        </span>
-        <div class="row how-do-our-clients-choose-us">
-          <div class="col-md-7">
-            <p
-              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
-            >
-              How do we check our products
-            </p>
-          </div>
-          <div class="col-md-2">
-            <a
-              href="#collapseIndicatorChevron"
-              class="btn visible-xs"
-              id="toggle-btn"
-              type="button"
-              data-bs-toggle="collapse"
-              data-target="#toggle-example"
-            >
-              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-              <img
-                class="bottom"
-                id="bottom"
-                src="assets/ExpandCollapse/Expand.png"
-              />
-            </a>
-          </div>
-        </div>
-        <span id="toggle-example" class="collapse in">
-          A Computer Science portal for geeks. It contains well written, well
-          thought and well explained computer science and programming articles,
-          quizzes and ...
-        </span>
 
-        <div class="row how-do-our-clients-choose-us">
-          <div class="col-md-7">
-            <p
-              class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
-            >
-              What is our recruitment process
-            </p>
-          </div>
-          <div class="col-md-2">
-            <a
-              href="#collapseIndicatorChevron"
-              class="btn visible-xs"
-              id="toggle-btn"
-              type="button"
-              data-bs-toggle="collapse"
-              data-target="#toggle-example"
-            >
-              <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
-              <img
-                class="bottom"
-                id="bottom"
-                src="assets/ExpandCollapse/Expand.png"
-              />
-            </a>
+    <div class="col-md-12 servicecards">
+      <div class="row card">
+        <div class="col-md-3 services-weoffer d-flex flex-column gap-1">
+          <p class="rounded-circle" style="font-size: 5vw">&#8600;</p>
+          <p class="services-we-offer montserrat text-primary">
+            Services, <span class="we-offer">we offer</span>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="card one d-flex flex-column">
+            <div class="It-Services montserrat">It Services</div>
+            <div class="contentone">
+              From managing IT operations to delivering high-quality and
+              risk-free solutions, our website development agency has become a
+              major industry player.
+            </div>
+            <div class="d-flex gap-2">
+              <div class="knowmore">Know more</div>
+              <div class="rounded-circle small">&#8599;</div>
+            </div>
           </div>
         </div>
-        <span id="toggle-example" class="collapse in">
-          A Computer Science portal for geeks. It contains well written, well
-          thought and well explained computer science and programming articles,
-          quizzes and ...
-        </span>
+        <div class="col-md-4">
+          <div class="card one d-flex flex-column">
+            <div class="It-Services montserrat">Staffing Services</div>
+            <div class="contentone">
+              Our healthcare recruitment agency assists clients with upgrading
+              existing staff and recruiting new applicants in no time, according
+              to business needs and exercising maximum scalability and
+              flexibility.
+            </div>
+            <div class="d-flex gap-2">
+              <div class="knowmore">Know more</div>
+              <div class="rounded-circle small">&#8599;</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="col-md-12 sayclass">
+      <div class="card whatclientsay">
+        <ng-lottie
+          [options]="testimonial"
+          class="testimonia"
+          width="20vw"
+        ></ng-lottie>
+        <div><button class="whatclientsaybutton">what Client Say</button></div>
+        <div>
+          <button
+            class="whatemployeessay"
+            [ngClass]="{ 'is-phone-portrait': isPhonePortrait }"
+          >
+            What Employees say
+          </button>
+        </div>
+        <div class="row cardcontent">
+          <div class="col-md-4">
+            <div class="whatsay">
+              <p class="whatour">What Our</p>
+              <span class="clients">Clients</span><span class="&">&</span>
+              <p class="employees">employees</p>
+              <p class="say-about-s">say about us</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              id="carouselExample"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/Testimonial Dummy.png"
+                    class="d-block w-100"
+                    style="height: 21vw"
+                    alt="photo 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/Testimonial Dummy.png"
+                    class="d-block w-100"
+                    style="height: 21vw"
+                    alt="photo 2"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev second"
+                href="#carouselExample"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next second"
+                href="#carouselExample"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div
+        class="row part3"
+        [ngClass]="{ 'is-phone-portrait': isPhonePortrait }"
+      >
+        <div class="col-md-4 youranswer d-flex flex-column">
+          <div class="your-questions-answered montserrat-medium-white-64px">
+            <span class="your">Your<br /></span
+            ><span class="questions">Questions,<br /></span
+            ><span class="answered">Answered</span>
+            <p class="cant-find-the-answer">
+              Can’t find the answer you’re looking for?<br />Please chat to our
+              friendly team.
+            </p>
+          </div>
+          <div></div>
+          <div class="d-flex flex-row" style="display: inline-table !important">
+            <div
+              style="display: table-cell; vertical-align: middle; width: 9vw"
+            >
+              <a href="#" class="get-in-touch">GET IN TOUCH</a>
+            </div>
 
-   
-  </form>
+            <div class="rounded-circle small">&#8599;</div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7 d-flex flex-column second">
+          <div class="row how-do-our-clients-choose-us">
+            <div class="col-md-7">
+              <p
+                class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
+              >
+                How do our clients choose us
+              </p>
+            </div>
+            <div class="col-md-2 plussign">
+              <a
+                href="#collapseIndicatorChevron"
+                class="btn visible-xs"
+                id="toggle-btn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-target="#toggle-example"
+              >
+                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+                <img
+                  class="button"
+                  id="bottom"
+                  src="assets/ExpandCollapse/Expand.png"
+                />
+              </a>
+            </div>
+          </div>
+          <span id="toggle-example" class="collapse in">
+            Raps Corp is one of the most formidable and promising healthcare
+            staffing companies. Its work culture and delivery practices have
+            ensured our business can continue to function with a skilled and
+            experience workforce. Post collaboration, Rasp Corp has helped us to
+            analyze thousands of applicants and sort the most suited ones for
+            our business expansion plan.
+          </span>
+          <div class="row how-do-our-clients-choose-us">
+            <div class="col-md-7">
+              <p
+                class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
+              >
+                How do we deliver
+              </p>
+            </div>
+            <div class="col-md-2 plussign">
+              <a
+                href="#collapseIndicatorChevron"
+                class="btn visible-xs"
+                id="togglebtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-target="#toggle-example"
+              >
+                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+                <img
+                  class="bottom"
+                  id="bottom"
+                  src="assets/ExpandCollapse/Expand.png"
+                />
+              </a>
+            </div>
+          </div>
+          <span id="toggle-example" class="collapse in">
+            A Computer Science portal for geeks. It contains well written, well
+            thought and well explained computer science and programming
+            articles, quizzes and ...
+          </span>
+          <div class="row how-do-our-clients-choose-us">
+            <div class="col-md-7">
+              <p
+                class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
+              >
+                How do we check our products
+              </p>
+            </div>
+            <div class="col-md-2 plussign">
+              <a
+                href="#collapseIndicatorChevron"
+                class="btn visible-xs"
+                id="toggle-btn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-target="#toggle-example"
+              >
+                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+                <img
+                  class="bottom"
+                  id="bottom"
+                  src="assets/ExpandCollapse/Expand.png"
+                />
+              </a>
+            </div>
+          </div>
+          <span id="toggle-example" class="collapse in">
+            A Computer Science portal for geeks. It contains well written, well
+            thought and well explained computer science and programming
+            articles, quizzes and ...
+          </span>
+
+          <div class="row how-do-our-clients-choose-us">
+            <div class="col-md-7">
+              <p
+                class="how-do-our-clients-choose-us montserrat-semi-bold-black-20px"
+              >
+                What is our recruitment process
+              </p>
+            </div>
+            <div class="col-md-2 plussign">
+              <a
+                href="#collapseIndicatorChevron"
+                class="btn visible-xs"
+                id="toggle-btn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-target="#toggle-example"
+              >
+                <!-- <span class="fa fa-angle-up" style="color:black"></span>  -->
+                <img
+                  class="bottom"
+                  id="bottom"
+                  src="assets/ExpandCollapse/Expand.png"
+                />
+              </a>
+            </div>
+          </div>
+          <span id="toggle-example" class="collapse in">
+            A Computer Science portal for geeks. It contains well written, well
+            thought and well explained computer science and programming
+            articles, quizzes and ...
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <app-footer></app-footer>
+    </div>
+  </div>
 </div>
-<app-footer></app-footer>

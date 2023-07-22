@@ -21,6 +21,8 @@ import { ContactusComponent } from './Navbarlinks/contactus/contactus.component'
 import { ServicesComponent } from './Navbarlinks/services/services.component';
 import { ItservicesComponent } from './Navbarlinks/itservices/itservices.component';
 import { RapsteamComponent } from './Navbarlinks/rapsteam/rapsteam.component';
+import { StaffingservicesComponent } from './Navbarlinks/staffingservices/staffingservices.component';
+import { BlogsComponent } from './Navbarlinks/blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { RapsteamComponent } from './Navbarlinks/rapsteam/rapsteam.component';
     ContactusComponent,
     ServicesComponent,
     ItservicesComponent,
-    RapsteamComponent
+    RapsteamComponent,
+    StaffingservicesComponent,
+    BlogsComponent
     
   ],
   imports: [

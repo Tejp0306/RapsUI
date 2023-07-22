@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
 import { AnimationOptions ,} from "ngx-lottie";
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ViewEncapsulation } from '@angular/core'
 @Component({
+  encapsulation: ViewEncapsulation.None,
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent {
   isPhonePortrait = false;
+  handsetview=false;
+  widescreenView=false;
   options: AnimationOptions = {
     path:"/assets/New-file.json", // download the JSON version of animation in your project directory and add the path to it like ./assets/animations/example.json
   };
@@ -30,16 +35,16 @@ export class ContentComponent {
       Breakpoints.Small,
       Breakpoints.Medium,
       Breakpoints.Large,
-      Breakpoints.XLarge
+      Breakpoints.XLarge,
+      '(min-width: 1600px)'
     ]).subscribe(result => {
 
       this.isPhonePortrait = false; 
-      if (result.breakpoints[Breakpoints.XSmall]) {
-        this.isPhonePortrait = true;
-        console.log("small");
-      }
       if (result.breakpoints[Breakpoints.Small]) {
        
+      }
+      if (result.breakpoints[Breakpoints.HandsetPortrait]) {
+        
       }
       if (result.breakpoints[Breakpoints.Medium]) {
        
@@ -50,7 +55,13 @@ export class ContentComponent {
       if (result.breakpoints[Breakpoints.XLarge]) {
         // handle XLarge breakpoint
       }
+      else if (this.breakpointObserver.isMatched('(max-width: 1200px and min-width:800px)')){
+        this.isPhonePortrait = true;
+        console.log("small");
+      }    
+  
     });
+   
   }
  
 }

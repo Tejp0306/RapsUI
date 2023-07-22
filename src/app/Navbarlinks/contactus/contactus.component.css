@@ -16,9 +16,10 @@ button.button2{
   width: 100%;
   margin-left: 2%;
 }
-
+.par1 {
+  margin-top: 9vw;
+}
 .row.main {
-  gap: 4%;
   margin-top: 1%;
 }
 .group-585 {
@@ -29,9 +30,11 @@ button.button2{
   width: 30%;
 }
 ng-lottie {
-  position:absolute;
-  top: -83px;
-  right: 3px;
+  position: absolute;
+  top: -1vw;
+  /* right: 3px; */
+  height: 17vw;
+  right: 2vw;
 }
 
 .para1{
@@ -40,7 +43,7 @@ ng-lottie {
 .carditems{
   display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 0.1vw;
 }
 .contactus{
   color: var(--white);
@@ -49,7 +52,9 @@ ng-lottie {
   font-style: normal;
   font-weight: 500;
 }
-
+.par3{
+  margin-top: 2vw;
+}
 .row2 {
   height: 30%;
   display: flex;
@@ -65,9 +70,11 @@ ng-lottie {
   line-height: normal;
   min-height: 1.15vw;
   min-width: 8.23vw;
-  text-align: center;
+ 
 }
-
+img {
+  height: 7vw;
+}
 .group-113 {
   align-items: flex-end;
   background-color: var(--absolute-zero);
@@ -139,11 +146,14 @@ ng-lottie {
   line-height: 1.35vw;
   white-space: nowrap;
 }
+.par2 {
+  margin-top: 3vw;
+}
 
 .got-ideas-weve-got {
   color: transparent;
   font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxl);
+  font-size: 3vw;
   font-weight: 400;
   left: 0;
   letter-spacing: 0;
@@ -183,6 +193,7 @@ ng-lottie[_ngcontent-ng-c2061016972] {
 
 .images{
   height: 20%;
+  margin-top: 4vw;
 }
 .group-807 {
   align-items: center;
@@ -227,6 +238,27 @@ ng-lottie[_ngcontent-ng-c2061016972] {
 
 }
 
+.chat-to-us{
+  letter-spacing: 0;
+  line-height: 1.35vw;
+  white-space: nowrap;
+  font-family: montserrat;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+
+.oneco {
+  display: inline-flex;
+  gap: 2%;
+}
+.twoco {
+  display: inline-flex;
+  gap: 2%;
+}
+.threeco {
+  display: inline-flex;
+  gap: 2%;
+}
 .visit-us{
   letter-spacing: 0;
   line-height: 1.35vw;
@@ -236,15 +268,6 @@ ng-lottie[_ngcontent-ng-c2061016972] {
     font-weight: 600;
 }
 
-.chat-to-us{
-  letter-spacing: 0;
-  line-height: 1.35vw;
-  white-space: nowrap;
-  font-family: montserrat;
-    font-size: 21px;
-    font-weight: 600;
-
-}
 
 .phone {
   align-self: flex-end;
@@ -275,17 +298,33 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   min-width: 35.1vw;
 }
 
-.raps-consulting-inc-2 {
+.tell-us{
   letter-spacing: 0;
-  line-height: 1.35vw;
-  min-width: 31.87vw;
-  white-space: nowrap;
+  line-height: 1;
+ 
 }
-
+.lotie.is-phone-portrait {
+  top: -9%;
+}
+.col-sm-6.col-md-6.is-phone-portrait {
+  width: 97%;
+}
+.row.para1{
+  margin-left: 0vw;
+}
+.row.para2 {
+  margin-left: 0vw;
+}
+.row.para3 {
+  margin-left: 0vw;
+}
+.row.images {
+  margin-left: 0vw;
+}
 .visit-us {
   letter-spacing: 0;
   line-height: 1.35vw;
-  white-space: nowrap;
+  
 }
 
 .group-577 {
@@ -295,12 +334,22 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   margin-top: 1.56vw;
   min-width: 35.78vw;
 }
+.phone.montserrat-normal-white-18px {
+  line-height: 2vw;
+}
+.col-sm-12.d-flex.flex-column {
+  gap: 1vh;
+}
+.line {
+ 
+  gap: 4%;
+  flex-wrap: wrap;
+  margin-left: 0%;
+}
 
 .raps-consulting-inc-1 {
-  letter-spacing: 0;
-  line-height: 1.35vw;
-  min-width: 32.55vw;
-  white-space: nowrap;
+  
+  
 }
 .text-line::placeholder{
   color:black;
@@ -317,6 +366,7 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   display: inherit;
     gap: 15px;
 }
+
 #rot:hover{
   transform:rotate(45deg);
 }
@@ -325,9 +375,9 @@ ng-lottie[_ngcontent-ng-c2061016972] {
   margin-top: 10%;
 }
 .card {
-    width: 100%;
+  width: 43vw;
     box-sizing: border-box;
-    padding: 4em;
+    padding: 2vw;
     font-family: Ubuntu;
     border-radius: 25px;
     color: white;
@@ -337,8 +387,9 @@ ng-lottie[_ngcontent-ng-c2061016972] {
     height: 98%;
     background: linear-gradient(45deg, #24AADB , #7cb5d7,rgb(147, 147, 242));
     background-size: 600% 100%;
-    animation: gradient 5s linear infinite;
+    animation: _ngcontent-ng-c2769080604_gradient 5s linear infinite;
     animation-direction: alternate;
+    margin-left: 2vw;
 
   }
   @keyframes gradient {
@@ -368,15 +419,16 @@ ng-lottie[_ngcontent-ng-c2061016972] {
 }
   button {
     text-transform: uppercase;
-    width: 51px;
+    width: 3vw;
     display: block;
     margin: 0 auto;
     color: white;
-    border-radius: 50px;
-    padding: 1em;
+    border-radius: 4vw;
+    padding: 0em;
     background: transparent;
     border: 2px solid white;
     font-weight: bold;
+    height: 3vw;
   }
 
   .row1 {
